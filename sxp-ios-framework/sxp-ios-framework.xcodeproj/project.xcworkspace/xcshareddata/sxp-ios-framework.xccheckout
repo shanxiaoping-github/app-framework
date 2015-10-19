@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>555CAEAC-CE65-46A4-B7CB-9F4024A4419B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sxp-ios-framework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6f3bfc9c-605c-4d5a-a067-3bb3afcf3eca</key>
+		<string>svn://112.74.126.207/womaif</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/app/ios/sxp-ios-framework/sxp-ios-framework.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6f3bfc9c-605c-4d5a-a067-3bb3afcf3eca</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6f3bfc9c-605c-4d5a-a067-3bb3afcf3eca</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6f3bfc9c-605c-4d5a-a067-3bb3afcf3eca</string>
+			<key>IDESourceControlWCCName</key>
+			<string>womaif</string>
+		</dict>
+	</array>
+</dict>
+</plist>
