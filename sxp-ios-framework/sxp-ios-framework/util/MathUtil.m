@@ -34,4 +34,24 @@
     }
     return YES;
 }
++(id)getObjectForNSDictionary:(NSDictionary*)dic index:(NSInteger)index{
+    NSEnumerator * enumeratorValue = [dic objectEnumerator];
+    int i = 0;
+    for (NSObject *object in enumeratorValue) {
+        if ((i++) == index&&object) {
+            return object;
+        }
+    }
+    return nil;
+}
++(NSString *)getKeyForNSDictionary:(NSDictionary *)dic index:(NSInteger)index{
+    NSEnumerator * enumeratorKey = [dic keyEnumerator];
+    int i = 0;
+    for (NSString *key in enumeratorKey) {
+        if ((i++) == index&&key) {
+            return key;
+        }
+    }
+    return @"";
+}
 @end

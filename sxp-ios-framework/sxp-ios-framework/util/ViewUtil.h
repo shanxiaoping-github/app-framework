@@ -11,4 +11,7 @@
 @interface ViewUtil : NSObject
 /*操作状态*/
 +(UIBarButtonItem*)getBackButtonItemWithImage:(UIImage*)image frame:(CGRect)frame target:(id)target sel:(SEL)sel;
+/*uicolor 转为 uiimage*/
++(UIImage*)UIColorTransferUIImage:(UIColor*)color rect:(CGRect)rect;
+
 @end

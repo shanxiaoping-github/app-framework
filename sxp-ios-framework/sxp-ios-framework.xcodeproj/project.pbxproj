@@ -48,8 +48,12 @@
 		5C302BDF1B57633900E91B3D /* SXPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C302BDE1B57633900E91B3D /* SXPAppDelegate.m */; };
 		5C3501841B8088E1008BF3A2 /* DeviceUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5C3501831B8088E1008BF3A2 /* DeviceUtil.mm */; };
 		5C35F2DD1B8EF9600032C119 /* StringUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5C35F2DB1B8EF9600032C119 /* StringUtil.mm */; };
-		5C38574B1BA66C1300B26477 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C38574A1BA66C1300B26477 /* UIView+Size.m */; };
 		5C3F2D9A1B550B930008E289 /* libsxp-ios-framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3F2D8E1B550B930008E289 /* libsxp-ios-framework.a */; };
+		5CCAEC0B1BE8A45E0053CDDA /* AutomaticArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAEC061BE8A45E0053CDDA /* AutomaticArcView.m */; settings = {ASSET_TAGS = (); }; };
+		5CCAEC0C1BE8A45E0053CDDA /* CustomerProgressLableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAEC081BE8A45E0053CDDA /* CustomerProgressLableView.m */; settings = {ASSET_TAGS = (); }; };
+		5CCAEC0D1BE8A45E0053CDDA /* CustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAEC0A1BE8A45E0053CDDA /* CustomerView.m */; settings = {ASSET_TAGS = (); }; };
+		5CCAEC201BE8AA2A0053CDDA /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCAEC171BE8A87A0053CDDA /* libAFNetworking.a */; };
+		EF2FBF6250D50E1D173EE375 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 978831838C1646E77D26A176 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5C3F2D8D1B550B930008E289;
 			remoteInfo = "sxp-ios-framework";
+		};
+		5CCAEC161BE8A87A0053CDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 38B7D6E2783AC6222AE1A71B68358BAD;
+			remoteInfo = AFNetworking;
+		};
+		5CCAEC181BE8A87A0053CDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D1F5F42D8277606431D18205106B85E;
+			remoteInfo = Pods;
+		};
+		5CCAEC211BE8AA310053CDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 928353533005A4198EBDA5B700D37B64;
+			remoteInfo = AFNetworking;
+		};
+		5CCAEC231BE8AA360053CDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D66FE7D3AD8963382F17E79643E1B8;
+			remoteInfo = Pods;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -75,6 +107,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B7C60A42E22640280226C9B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5C2F27951B86FCAF00667CEF /* ViewUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtil.h; sourceTree = "<group>"; };
 		5C2F27961B86FCAF00667CEF /* ViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtil.m; sourceTree = "<group>"; };
 		5C2FDE6A1B78858F002B27B6 /* NetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtil.h; sourceTree = "<group>"; };
@@ -164,11 +197,18 @@
 		5C3501831B8088E1008BF3A2 /* DeviceUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DeviceUtil.mm; sourceTree = "<group>"; };
 		5C35F2DB1B8EF9600032C119 /* StringUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StringUtil.mm; sourceTree = "<group>"; };
 		5C35F2DC1B8EF9600032C119 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
-		5C3857491BA66C1300B26477 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
-		5C38574A1BA66C1300B26477 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
 		5C3F2D8E1B550B930008E289 /* libsxp-ios-framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsxp-ios-framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3F2D991B550B930008E289 /* sxp-ios-frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sxp-ios-frameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3F2D9F1B550B930008E289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCAEC051BE8A45E0053CDDA /* AutomaticArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomaticArcView.h; sourceTree = "<group>"; };
+		5CCAEC061BE8A45E0053CDDA /* AutomaticArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutomaticArcView.m; sourceTree = "<group>"; };
+		5CCAEC071BE8A45E0053CDDA /* CustomerProgressLableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerProgressLableView.h; sourceTree = "<group>"; };
+		5CCAEC081BE8A45E0053CDDA /* CustomerProgressLableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerProgressLableView.m; sourceTree = "<group>"; };
+		5CCAEC091BE8A45E0053CDDA /* CustomerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerView.h; sourceTree = "<group>"; };
+		5CCAEC0A1BE8A45E0053CDDA /* CustomerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerView.m; sourceTree = "<group>"; };
+		5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		978831838C1646E77D26A176 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09B0B8F2D35F23FC1EECA93 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +216,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCAEC201BE8AA2A0053CDDA /* libAFNetworking.a in Frameworks */,
+				EF2FBF6250D50E1D173EE375 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +235,12 @@
 		5C2F27CA1B87043800667CEF /* view */ = {
 			isa = PBXGroup;
 			children = (
-				5C3857491BA66C1300B26477 /* UIView+Size.h */,
-				5C38574A1BA66C1300B26477 /* UIView+Size.m */,
+				5CCAEC051BE8A45E0053CDDA /* AutomaticArcView.h */,
+				5CCAEC061BE8A45E0053CDDA /* AutomaticArcView.m */,
+				5CCAEC071BE8A45E0053CDDA /* CustomerProgressLableView.h */,
+				5CCAEC081BE8A45E0053CDDA /* CustomerProgressLableView.m */,
+				5CCAEC091BE8A45E0053CDDA /* CustomerView.h */,
+				5CCAEC0A1BE8A45E0053CDDA /* CustomerView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -386,9 +432,12 @@
 		5C3F2D851B550B930008E289 = {
 			isa = PBXGroup;
 			children = (
+				5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */,
 				5C3F2D901B550B930008E289 /* sxp-ios-framework */,
 				5C3F2D9D1B550B930008E289 /* sxp-ios-frameworkTests */,
 				5C3F2D8F1B550B930008E289 /* Products */,
+				BB888DB32D3548E7E177A28A /* Pods */,
+				C94468004DE95C7B47A89A52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -434,6 +483,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5CCAEC121BE8A87A0053CDDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCAEC171BE8A87A0053CDDA /* libAFNetworking.a */,
+				5CCAEC191BE8A87A0053CDDA /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB888DB32D3548E7E177A28A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A09B0B8F2D35F23FC1EECA93 /* Pods.debug.xcconfig */,
+				3B7C60A42E22640280226C9B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C94468004DE95C7B47A89A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978831838C1646E77D26A176 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,13 +516,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C3F2DA21B550B930008E289 /* Build configuration list for PBXNativeTarget "sxp-ios-framework" */;
 			buildPhases = (
+				26E9DC53A5645323BF2274DC /* Check Pods Manifest.lock */,
 				5C3F2D8A1B550B930008E289 /* Sources */,
 				5C3F2D8B1B550B930008E289 /* Frameworks */,
 				5C3F2D8C1B550B930008E289 /* CopyFiles */,
+				29437269F195FB4DE18B2872 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5CCAEC241BE8AA360053CDDA /* PBXTargetDependency */,
+				5CCAEC221BE8AA310053CDDA /* PBXTargetDependency */,
 			);
 			name = "sxp-ios-framework";
 			productName = "sxp-ios-framework";
@@ -499,6 +578,12 @@
 			mainGroup = 5C3F2D851B550B930008E289;
 			productRefGroup = 5C3F2D8F1B550B930008E289 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5CCAEC121BE8A87A0053CDDA /* Products */;
+					ProjectRef = 5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5C3F2D8D1B550B930008E289 /* sxp-ios-framework */,
@@ -506,6 +591,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5CCAEC171BE8A87A0053CDDA /* libAFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworking.a;
+			remoteRef = 5CCAEC161BE8A87A0053CDDA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5CCAEC191BE8A87A0053CDDA /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 5CCAEC181BE8A87A0053CDDA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5C3F2D971B550B930008E289 /* Resources */ = {
@@ -516,6 +618,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26E9DC53A5645323BF2274DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29437269F195FB4DE18B2872 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C3F2D8A1B550B930008E289 /* Sources */ = {
@@ -530,7 +665,9 @@
 				5C302B941B565DEE00E91B3D /* AFNetworkReachabilityManager.m in Sources */,
 				5C302B4F1B565C3900E91B3D /* JsonFactory.m in Sources */,
 				5C302B9A1B565DEE00E91B3D /* AFNetworkActivityIndicatorManager.m in Sources */,
+				5CCAEC0C1BE8A45E0053CDDA /* CustomerProgressLableView.m in Sources */,
 				5C302BDF1B57633900E91B3D /* SXPAppDelegate.m in Sources */,
+				5CCAEC0D1BE8A45E0053CDDA /* CustomerView.m in Sources */,
 				5C302BBB1B565E4C00E91B3D /* NSString+Mobile.m in Sources */,
 				5C302B9E1B565DEE00E91B3D /* UIImageView+AFNetworking.m in Sources */,
 				5C302BBC1B565E4C00E91B3D /* Position.m in Sources */,
@@ -542,7 +679,6 @@
 				5C2FDE6C1B78858F002B27B6 /* NetworkUtil.m in Sources */,
 				5C302B931B565DEE00E91B3D /* AFHTTPSessionManager.m in Sources */,
 				5C2F27971B86FCAF00667CEF /* ViewUtil.m in Sources */,
-				5C38574B1BA66C1300B26477 /* UIView+Size.m in Sources */,
 				5C302B9C1B565DEE00E91B3D /* UIAlertView+AFNetworking.m in Sources */,
 				5C302B971B565DEE00E91B3D /* AFURLRequestSerialization.m in Sources */,
 				5C3501841B8088E1008BF3A2 /* DeviceUtil.mm in Sources */,
@@ -558,6 +694,7 @@
 				5C302BB81B565E4C00E91B3D /* FileUtil.m in Sources */,
 				5C302B981B565DEE00E91B3D /* AFURLResponseSerialization.m in Sources */,
 				5C302BD71B5751F500E91B3D /* RuntimeContext.m in Sources */,
+				5CCAEC0B1BE8A45E0053CDDA /* AutomaticArcView.m in Sources */,
 				5C302B671B565DAD00E91B3D /* MBProgressHUDManager.m in Sources */,
 				5C302B5A1B565CAC00E91B3D /* STDbHandle.m in Sources */,
 				5C302BA01B565DEE00E91B3D /* UIRefreshControl+AFNetworking.m in Sources */,
@@ -581,6 +718,16 @@
 			isa = PBXTargetDependency;
 			target = 5C3F2D8D1B550B930008E289 /* sxp-ios-framework */;
 			targetProxy = 5C3F2D9B1B550B930008E289 /* PBXContainerItemProxy */;
+		};
+		5CCAEC221BE8AA310053CDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = 5CCAEC211BE8AA310053CDDA /* PBXContainerItemProxy */;
+		};
+		5CCAEC241BE8AA360053CDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pods;
+			targetProxy = 5CCAEC231BE8AA360053CDDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -665,20 +812,24 @@
 		};
 		5C3F2DA31B550B930008E289 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09B0B8F2D35F23FC1EECA93 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		5C3F2DA41B550B930008E289 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7C60A42E22640280226C9B /* Pods.release.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

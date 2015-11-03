@@ -11,8 +11,14 @@
 #define DATA2 @"yyyy年MM月dd日 HH:mm:ss"
 #define DATA3 @"yyyy年MM月dd日"
 #define DATA4 @"yyyy-MM-dd"
+#define DATA5 @"yyyy-MM"
+#define DATA6 @"MM-dd HH:mm:ss"
+#define DATA7 @"MM-dd E"
+
 
 @interface TimeUtil : NSObject
+/*将时间转化为指定的格式*/
++(NSString*)stringToString:(NSString*)sourceStr sourceFormat:(NSString*)sourceFormat toFormat:(NSString*)toFormat;
 /*时间转为字符串形式*/
 +(NSString*)nsDataToString:(NSDate*)data format:(NSString*)formatString;
 /*字符串转为日期*/
@@ -33,4 +39,8 @@
 +(NSString*)getSeconde:(NSDate*)date;
 /*获得当前时间*/
 +(NSString*)nowTime:(NSString*)formatString;
+//获得标记时间
++(NSDate*)getMarkTime:(NSInteger)year month:(NSInteger)month day:(NSInteger)day hours:(NSInteger)hours date:(NSDate*)date;
+
+
 @end

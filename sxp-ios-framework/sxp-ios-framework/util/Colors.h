@@ -6,10 +6,10 @@
 //  Copyright (c) 2015年 beijingwomaifang. All rights reserved.
 //
 /*颜色定义类*/
+
 #ifndef _Colors_h
 #define _Colors_h
-
-
+#import <UIKit/UIKit.h>
 /*颜色生成器*/
 #define kColorWithRGB(r, g, b,a) [UIColor colorWithRed:(r) / 255.f green:(g) / 255.f blue:(b) / 255.f alpha:(a)]
 
