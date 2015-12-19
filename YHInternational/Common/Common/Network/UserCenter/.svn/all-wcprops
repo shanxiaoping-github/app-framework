@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/49044/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter
+END
+BBGAddIDCardResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGAddIDCardResponse.h
+END
+BBGAddIDCardResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGAddIDCardResponse.m
+END
+BBGUploadIDPhotoRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUploadIDPhotoRequest.h
+END
+BBGUploadIDPhotoRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUploadIDPhotoRequest.m
+END
+BBGAddressListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGAddressListRequest.h
+END
+BBGUploadIDPhotoResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUploadIDPhotoResponse.h
+END
+BBGGetCommentDetailRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGGetCommentDetailRequest.h
+END
+BBGAddressListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGAddressListRequest.m
+END
+BBGUploadIDPhotoResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUploadIDPhotoResponse.m
+END
+BBGAddressListResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGAddressListResponse.h
+END
+BBGUpdateUserNameResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUpdateUserNameResponse.h
+END
+BBGIDCardListResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGIDCardListResponse.h
+END
+BBGGetCommentDetailRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGGetCommentDetailRequest.m
+END
+BBGGetCommentDetailResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGGetCommentDetailResponse.h
+END
+BBGAddressListResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGAddressListResponse.m
+END
+BBGIDCardListResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGIDCardListResponse.m
+END
+BBGUpdateUserNameResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUpdateUserNameResponse.m
+END
+BBGGetCommentDetailResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGGetCommentDetailResponse.m
+END
+BBGModifyIDCardResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGModifyIDCardResponse.h
+END
+BBGUploadUserHeadRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUploadUserHeadRequest.h
+END
+BBGSetUserHeadImgRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGSetUserHeadImgRequest.h
+END
+BBGModifyIDCardResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGModifyIDCardResponse.m
+END
+BBGDeleteIDCardRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGDeleteIDCardRequest.h
+END
+BBGUploadUserHeadRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUploadUserHeadRequest.m
+END
+BBGUploadUserHeadResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUploadUserHeadResponse.h
+END
+BBGSetUserHeadImgRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGSetUserHeadImgRequest.m
+END
+BBGDeleteIDCardRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGDeleteIDCardRequest.m
+END
+BBGDeleteIDCardResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGDeleteIDCardResponse.h
+END
+BBGSetUserHeadImgResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGSetUserHeadImgResponse.h
+END
+BBGUploadUserHeadResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUploadUserHeadResponse.m
+END
+BBGIDCardListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGIDCardListRequest.h
+END
+BBGUpdateUserNameRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUpdateUserNameRequest.h
+END
+BBGSetUserHeadImgResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGSetUserHeadImgResponse.m
+END
+BBGDeleteIDCardResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGDeleteIDCardResponse.m
+END
+BBGUpdateUserNameRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGUpdateUserNameRequest.m
+END
+BBGIDCardListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGIDCardListRequest.m
+END
+BBGModifyIDCardRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGModifyIDCardRequest.h
+END
+BBGAddIDCardRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGAddIDCardRequest.h
+END
+BBGModifyIDCardRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGModifyIDCardRequest.m
+END
+BBGAddIDCardRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/BBGAddIDCardRequest.m
+END

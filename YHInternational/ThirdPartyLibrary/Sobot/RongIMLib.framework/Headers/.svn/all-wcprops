@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers
+END
+RCIMClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCIMClient.h
+END
+RCContactInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCContactInfo.h
+END
+RCAccountInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCAccountInfo.h
+END
+RCUserData.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCUserData.h
+END
+RCPublicServiceDataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCPublicServiceDataSource.h
+END
+RCVoiceMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCVoiceMessage.h
+END
+RCProfileNotificationMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCProfileNotificationMessage.h
+END
+RCLocationMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCLocationMessage.h
+END
+interf_dec.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/interf_dec.h
+END
+RCDiscussion.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCDiscussion.h
+END
+RCRichContentMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCRichContentMessage.h
+END
+RCSuspendMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCSuspendMessage.h
+END
+RCRealTimeLocationEndMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCRealTimeLocationEndMessage.h
+END
+RCImageMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCImageMessage.h
+END
+RCStatusMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCStatusMessage.h
+END
+RCHandShakeMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCHandShakeMessage.h
+END
+RongIMLib.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RongIMLib.h
+END
+RCStatusDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCStatusDefine.h
+END
+RCPersonalInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCPersonalInfo.h
+END
+RCDiscussionNotificationMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCDiscussionNotificationMessage.h
+END
+RCJSONConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCJSONConverter.h
+END
+RCAMRDataConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCAMRDataConverter.h
+END
+RCUnknownMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCUnknownMessage.h
+END
+RCPublicServiceRichContentMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCPublicServiceRichContentMessage.h
+END
+RCContactNotificationMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCContactNotificationMessage.h
+END
+RCGroupNotificationMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCGroupNotificationMessage.h
+END
+RCMessageContentView.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCMessageContentView.h
+END
+RCConversation.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCConversation.h
+END
+RCUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCUtilities.h
+END
+RCDetailUserInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCDetailUserInfo.h
+END
+RCWatchKitStatusDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCWatchKitStatusDelegate.h
+END
+RCRealTimeLocationStartMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCRealTimeLocationStartMessage.h
+END
+RCMessageContent.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCMessageContent.h
+END
+RCPublicServiceProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCPublicServiceProfile.h
+END
+RCPublicServiceMultiRichContentMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCPublicServiceMultiRichContentMessage.h
+END
+RCPublicServiceMenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCPublicServiceMenu.h
+END
+RCMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCMessage.h
+END
+RCRealTimeLocationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCRealTimeLocationManager.h
+END
+interf_enc.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/interf_enc.h
+END
+RCTextMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCTextMessage.h
+END
+RCClientInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCClientInfo.h
+END
+RCCommandNotificationMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCCommandNotificationMessage.h
+END
+RCUserInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCUserInfo.h
+END
+RCGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCGroup.h
+END
+RCRichContentItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCRichContentItem.h
+END
+RCInformationNotificationMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCInformationNotificationMessage.h
+END
+RCUploadImageStatusListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCUploadImageStatusListener.h
+END
+RCPublicServiceMenuItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCPublicServiceMenuItem.h
+END
+RCPublicServiceCommandMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/Sobot/RongIMLib.framework/Headers/RCPublicServiceCommandMessage.h
+END

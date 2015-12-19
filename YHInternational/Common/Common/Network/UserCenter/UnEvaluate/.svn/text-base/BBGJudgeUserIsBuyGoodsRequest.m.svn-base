@@ -1,0 +1,39 @@
+//
+//  BBGJudgeUserIsBuyGoodsRequest.m
+//  Common
+//
+//  Created by Holyjoy on 15/5/21.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGJudgeUserIsBuyGoodsRequest.h"
+#import "BBGJudgeUserIsBuyGoodsResponse.h"
+
+@implementation BBGJudgeUserIsBuyGoodsRequest
+
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+        self.serviceName = @"bubugao.mobile.global.member.product.hasOrderForGoods";
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters{
+    
+    [parameters addParameter:_goodsId  forKey:@"goodsId"];
+    [super buildParameters:parameters];
+}
+
+
+- (BOOL)needAuthUser{
+    return YES;
+}
+
+- (Class)responseClass {
+    
+    return [BBGJudgeUserIsBuyGoodsResponse class];
+}
+
+@end

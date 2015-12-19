@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/bbg-code/!svn/ver/49031/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager
+END
+BBGRegionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGRegionManager.h
+END
+BBGSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/48203/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGSessionManager.h
+END
+BBGBugFixManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/48654/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGBugFixManager.h
+END
+BBGCountdownManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGCountdownManager.m
+END
+BBGSessionHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGSessionHandler.h
+END
+BBGSessionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/47456/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGSessionManager.m
+END
+BBGCartManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGCartManager.h
+END
+BBGBugFixManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/48654/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGBugFixManager.m
+END
+BBGActivityManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGActivityManager.h
+END
+BBGCartManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGCartManager.m
+END
+BBGActivityManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGActivityManager.m
+END
+BBGRedpaperManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGRedpaperManager.h
+END
+BBGLaunchTask.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGLaunchTask.h
+END
+BBGRegionManager.mm
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/49031/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGRegionManager.mm
+END
+BBGLocateManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGLocateManager.h
+END
+BBGRedpaperManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47890/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGRedpaperManager.m
+END
+BBGUserDataManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGUserDataManager.h
+END
+BBGLaunchManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/48769/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGLaunchManager.h
+END
+BBGJumpManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGJumpManager.h
+END
+BBGLocateManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGLocateManager.m
+END
+BBGRegionCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/48160/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGRegionCache.h
+END
+BBGUserDataManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGUserDataManager.m
+END
+BBGLaunchManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/48856/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGLaunchManager.m
+END
+BBGJumpManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGJumpManager.m
+END
+BBGCountdownManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGCountdownManager.h
+END
+BBGRegionCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/48460/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Manager/BBGRegionCache.m
+END

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansHans-DemiLight.otf">
+            <string>NotoSansHans-DemiLight</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BrandSectionHeader" id="U6b-Vx-4bR" customClass="BBGCosmeticSectionHeader_iPhone">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IMW-um-VnU">
+                    <rect key="frame" x="0.0" y="10" width="320" height="50"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separateLine" translatesAutoresizingMaskIntoConstraints="NO" id="vSx-ee-or3">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="xLv-gm-baG"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="vSx-ee-or3" firstAttribute="top" secondItem="IMW-um-VnU" secondAttribute="top" id="YJU-aX-Tni"/>
+                        <constraint firstItem="vSx-ee-or3" firstAttribute="leading" secondItem="IMW-um-VnU" secondAttribute="leading" id="cSc-Ph-KrX"/>
+                        <constraint firstAttribute="trailing" secondItem="vSx-ee-or3" secondAttribute="trailing" id="wbW-nr-v6F"/>
+                        <constraint firstAttribute="height" constant="50" id="wmy-a3-lxb"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fYs-ql-oWh">
+                    <rect key="frame" x="110" y="15" width="100" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="3Zy-oE-gmI"/>
+                        <constraint firstAttribute="height" constant="40" id="emB-Sq-vAd"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欧美品牌" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xR-rg-tEg">
+                    <rect key="frame" x="62" y="24" width="197" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="197" id="VXM-RE-fyE"/>
+                        <constraint firstAttribute="height" constant="21" id="eYc-ib-5ie"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansHans-DemiLight" family="Noto Sans S Chinese" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separateLine" translatesAutoresizingMaskIntoConstraints="NO" id="ukZ-if-G76">
+                    <rect key="frame" x="0.0" y="59" width="320" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="HuG-ye-oke"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSB-et-0L7">
+                    <rect key="frame" x="55" y="15" width="209" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="NpU-gN-7MY"/>
+                        <constraint firstAttribute="width" constant="209" id="hgH-u5-ZhY"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="brandButtonPressed:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="snh-cX-SXe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.93725490196078431" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="fYs-ql-oWh" secondAttribute="centerX" id="0AB-0K-ojA"/>
+                <constraint firstAttribute="bottom" secondItem="1xR-rg-tEg" secondAttribute="bottom" constant="15" id="0J4-fK-F3n"/>
+                <constraint firstItem="IMW-um-VnU" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="10" id="5hZ-2D-SVs"/>
+                <constraint firstItem="gSB-et-0L7" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="15" id="KqK-7Q-8sN"/>
+                <constraint firstAttribute="trailing" secondItem="IMW-um-VnU" secondAttribute="trailing" id="MWA-6H-ReZ"/>
+                <constraint firstItem="IMW-um-VnU" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="Ncf-Ox-OwT"/>
+                <constraint firstAttribute="centerX" secondItem="1xR-rg-tEg" secondAttribute="centerX" id="W7y-Um-zS6"/>
+                <constraint firstAttribute="bottom" secondItem="fYs-ql-oWh" secondAttribute="bottom" constant="5" id="fU0-Oy-UzJ"/>
+                <constraint firstAttribute="centerX" secondItem="gSB-et-0L7" secondAttribute="centerX" id="fp0-xJ-AxT"/>
+                <constraint firstItem="ukZ-if-G76" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="h6u-FW-3tB"/>
+                <constraint firstAttribute="bottom" secondItem="ukZ-if-G76" secondAttribute="bottom" id="vLz-sf-Y18"/>
+                <constraint firstAttribute="trailing" secondItem="ukZ-if-G76" secondAttribute="trailing" id="vMS-dX-SXC"/>
+            </constraints>
+            <connections>
+                <outlet property="brandImageView" destination="fYs-ql-oWh" id="GvK-QB-Qsn"/>
+                <outlet property="brandNameLabel" destination="1xR-rg-tEg" id="OeO-kK-EZM"/>
+                <outlet property="separateImageView" destination="ukZ-if-G76" id="g7a-km-jKH"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="separateLine" width="2" height="1"/>
+    </resources>
+</document>

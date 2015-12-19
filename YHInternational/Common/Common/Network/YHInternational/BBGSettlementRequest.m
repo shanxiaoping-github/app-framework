@@ -1,0 +1,57 @@
+//
+//  BBGSettlementRequest.m
+//  Common
+//
+//  Created by Timmy OuYang on 15/5/14.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGSettlementRequest.h"
+#import "BBGSettlementResponse.h"
+
+@implementation BBGSettlementRequest
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    
+    NSString *buyType = nil;
+    switch (self.buyType) {
+        case -1:
+            buyType = @"group";
+            break;
+        case 1:
+            buyType = @"direct";
+            break;
+        case 2:
+            buyType = @"normal";
+            break;
+        case 3:
+            buyType = @"presale";
+            break;
+            
+        default:
+            break;
+    }
+
+    [parameters addParameter:buyType forKey:@"buyType"];
+    [parameters addParameter:@"ios" forKey:@"source"];
+}
+
+- (BOOL)needAuthUser {
+
+    return YES;
+}
+
+- (Class)responseClass {
+    
+    return [BBGSettlementResponse class];
+}
+@end

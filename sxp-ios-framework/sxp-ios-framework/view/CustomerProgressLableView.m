@@ -8,6 +8,9 @@
 
 #import "CustomerProgressLableView.h"
 #import "StringUtil.h"
+#import "Fonts.h"
+#import "Colors.h"
+#import "appliacation_attribute.h"
 @interface CustomerProgressLableView(){
     BOOL isInitDefault;
     
@@ -53,19 +56,19 @@
     }
     self.radian = 0;
     self.backgoundCustomerColor = [UIColor clearColor];
-    self.progressColor = progress_color;
+    self.progressColor = lightBlueColor;
     self.progressValue = 50.f;
     self.maxValue = 100.f;
     
     self.leftlabelStr = @"";
     self.leftlabelColor = [UIColor whiteColor];
-    self.leftlabelFont = a_few_font;
+    self.leftlabelFont = last_small_font;
     
     self.flowlabelStr = [NSString stringWithFormat:@"%.2lf",_progressValue];
     self.flowlabelColor = [UIColor whiteColor];
-    self.flowlabelFont = a_few_font;
+    self.flowlabelFont = last_small_font;
     
-    backgroundView = [[UIView alloc] initWithFrame:CGRectMake(10, 0, mainScreenWidth-2*10, self.bounds.size.height)];
+    backgroundView = [[UIView alloc] initWithFrame:CGRectMake(10, 0,screenWidth-2*10, self.bounds.size.height)];
     backgroundView.backgroundColor = [UIColor whiteColor];
     [self addSubview:backgroundView];
 }

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47823/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser
+END
+BBGPhotoModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGPhotoModel.m
+END
+BBGPhotoCollectionViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGPhotoCollectionViewCell.h
+END
+BBGPhotosBrowserView.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47823/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGPhotosBrowserView.m
+END
+BBGPhotoBrowserViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGPhotoBrowserViewController.m
+END
+BBGTapImgView.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGTapImgView.m
+END
+UIScrollView+UITouchScrollView.h
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/UIScrollView+UITouchScrollView.h
+END
+BBGPhotoCollectionViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGPhotoCollectionViewCell.m
+END
+UIScrollView+UITouchScrollView.m
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/UIScrollView+UITouchScrollView.m
+END
+BBGPhotoModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGPhotoModel.h
+END
+BBGPhotosBrowserView.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGPhotosBrowserView.h
+END
+BBGPhotoBrowserViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGPhotoBrowserViewController.h
+END
+BBGTapImgView.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/BigPhotoBrowser/BBGTapImgView.h
+END

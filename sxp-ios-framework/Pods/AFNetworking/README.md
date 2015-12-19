@@ -27,23 +27,22 @@ Choose AFNetworking for your next project, or migrate over your existing project
 
 ### Installation with CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AFNetworking in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking).
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AFNetworking in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking).
 
 #### Podfile
 
 ```ruby
 platform :ios, '7.0'
-pod "AFNetworking", "~> 3.0"
+pod "AFNetworking", "~> 2.0"
 ```
 
 ## Requirements
 
-| AFNetworking Version | Minimum iOS Target  | Minimum OS X Target  | Minimum watchOS Target  | Minimum tvOS Target  |                                   Notes                                   |
-|:--------------------:|:---------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:-------------------------------------------------------------------------:|
-| 3.x | iOS 7 | OS X 10.9 | 2.0 | 9.0 | Xcode 7 is required. `NSURLConnectionOperation` support has been removed. |
-| [2.x](https://github.com/AFNetworking/AFNetworking/tree/2.x) | iOS 7 | OS X 10.8 | 2.0 | n/a | Xcode 5 is required. `NSURLSession` subspec requires iOS 7 or OS X 10.9. |
-| [1.x](https://github.com/AFNetworking/AFNetworking/tree/1.x) | iOS 5 | Mac OS X 10.7 | n/a | n/a |
-| [0.10.x](https://github.com/AFNetworking/AFNetworking/tree/0.10.x) | iOS 4 | Mac OS X 10.6 | n/a | n/a |
+| AFNetworking Version | Minimum iOS Target  | Minimum OS X Target  |                                   Notes                                   |
+|:--------------------:|:---------------------------:|:----------------------------:|:-------------------------------------------------------------------------:|
+|          2.x         |            iOS 6            |           OS X 10.8          | Xcode 5 is required. `NSURLSession` subspec requires iOS 7 or OS X 10.9. |
+|          [1.x](https://github.com/AFNetworking/AFNetworking/tree/1.x)         |            iOS 5            |         Mac OS X 10.7        |                                                                           |
+|        [0.10.x](https://github.com/AFNetworking/AFNetworking/tree/0.10.x)        |            iOS 4            |         Mac OS X 10.6        |                                                                           |
 
 (OS X projects must support [64-bit with modern Cocoa runtime](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtVersionsPlatforms.html)).
 
@@ -51,7 +50,13 @@ pod "AFNetworking", "~> 3.0"
 
 ## Architecture
 
-### NSURLSession
+### NSURLConnection
+
+- `AFURLConnectionOperation`
+- `AFHTTPRequestOperation`
+- `AFHTTPRequestOperationManager`
+
+### NSURLSession _(iOS 7 / Mac OS X 10.9)_
 
 - `AFURLSessionManager`
 - `AFHTTPSessionManager`
@@ -77,6 +82,50 @@ pod "AFNetworking", "~> 3.0"
 - `AFNetworkReachabilityManager`
 
 ## Usage
+
+### HTTP Request Operation Manager
+
+`AFHTTPRequestOperationManager` encapsulates the common patterns of communicating with a web application over HTTP, including request creation, response serialization, network reachability monitoring, and security, as well as request operation management.
+
+#### `GET` Request
+
+```objective-c
+AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+[manager GET:@"http://example.com/resources.json" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    NSLog(@"JSON: %@", responseObject);
+} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    NSLog(@"Error: %@", error);
+}];
+```
+
+#### `POST` URL-Form-Encoded Request
+
+```objective-c
+AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+NSDictionary *parameters = @{@"foo": @"bar"};
+[manager POST:@"http://example.com/resources.json" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    NSLog(@"JSON: %@", responseObject);
+} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    NSLog(@"Error: %@", error);
+}];
+```
+
+#### `POST` Multi-Part Request
+
+```objective-c
+AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+NSDictionary *parameters = @{@"foo": @"bar"};
+NSURL *filePath = [NSURL fileURLWithPath:@"file://path/to/image.png"];
+[manager POST:@"http://example.com/resources.json" parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+    [formData appendPartWithFileURL:filePath name:@"image" error:nil];
+} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    NSLog(@"Success: %@", responseObject);
+} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    NSLog(@"Error: %@", error);
+}];
+```
+
+---
 
 ### AFURLSessionManager
 
@@ -214,7 +263,7 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 * Network reachability is a useful tool for determining why a request might have failed.
 	* After a network request has failed, telling the user they're offline is better than giving them a more technical but accurate error, such as "request timed out."
 
-See also [WWDC 2012 session 706, "Networking Best Practices."](https://developer.apple.com/videos/wwdc/2012/#706).
+See also [WWDC 2012 session 706, "Networking Best Practices."](https://developer.apple.com/videos/play/wwdc2012-706/).
 
 #### Shared Network Reachability
 
@@ -224,6 +273,29 @@ See also [WWDC 2012 session 706, "Networking Best Practices."](https://developer
 }];
 
 [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+```
+
+#### HTTP Manager Reachability
+
+```objective-c
+NSURL *baseURL = [NSURL URLWithString:@"http://example.com/"];
+AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
+
+NSOperationQueue *operationQueue = manager.operationQueue;
+[manager.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+    switch (status) {
+        case AFNetworkReachabilityStatusReachableViaWWAN:
+        case AFNetworkReachabilityStatusReachableViaWiFi:
+            [operationQueue setSuspended:NO];
+            break;
+        case AFNetworkReachabilityStatusNotReachable:
+        default:
+            [operationQueue setSuspended:YES];
+            break;
+    }
+}];
+
+[manager.reachabilityManager startMonitoring];
 ```
 
 ---
@@ -243,9 +315,52 @@ manager.securityPolicy.allowInvalidCertificates = YES; // not recommended for pr
 
 ---
 
+### AFHTTPRequestOperation
+
+`AFHTTPRequestOperation` is a subclass of `AFURLConnectionOperation` for requests using the HTTP or HTTPS protocols. It encapsulates the concept of acceptable status codes and content types, which determine the success or failure of a request.
+
+Although `AFHTTPRequestOperationManager` is usually the best way to go about making requests, `AFHTTPRequestOperation` can be used by itself.
+
+#### `GET` with `AFHTTPRequestOperation`
+
+```objective-c
+NSURL *URL = [NSURL URLWithString:@"http://example.com/resources/123.json"];
+NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+AFHTTPRequestOperation *op = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+op.responseSerializer = [AFJSONResponseSerializer serializer];
+[op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+    NSLog(@"JSON: %@", responseObject);
+} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    NSLog(@"Error: %@", error);
+}];
+[[NSOperationQueue mainQueue] addOperation:op];
+```
+
+#### Batch of Operations
+
+```objective-c
+NSMutableArray *mutableOperations = [NSMutableArray array];
+for (NSURL *fileURL in filesToUpload) {
+    NSURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"http://example.com/upload" parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+        [formData appendPartWithFileURL:fileURL name:@"images[]" error:nil];
+    }];
+
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+
+    [mutableOperations addObject:operation];
+}
+
+NSArray *operations = [AFURLConnectionOperation batchOfRequestOperations:@[...] progressBlock:^(NSUInteger numberOfFinishedOperations, NSUInteger totalNumberOfOperations) {
+    NSLog(@"%lu of %lu complete", numberOfFinishedOperations, totalNumberOfOperations);
+} completionBlock:^(NSArray *operations) {
+    NSLog(@"All operations in batch complete");
+}];
+[[NSOperationQueue mainQueue] addOperations:operations waitUntilFinished:NO];
+```
+
 ## Unit Tests
 
-AFNetworking includes a suite of unit tests within the Tests subdirectory. In order to run the unit tests, you must install the testing dependencies via [CocoaPods](http://cocoapods.org/):
+AFNetworking includes a suite of unit tests within the Tests subdirectory. In order to run the unit tests, you must install the testing dependencies via [CocoaPods](https://cocoapods.org/):
 
     $ cd Tests
     $ pod install
@@ -254,7 +369,7 @@ Once testing dependencies are installed, you can execute the test suite via the 
 
 ### Running Tests from the Command Line
 
-Tests can also be run from the command line or within a continuous integration environment. The [`xcpretty`](https://github.com/mneorr/xcpretty) utility needs to be installed before running the tests from the command line:
+Tests can also be run from the command line or within a continuous integration environment. The [`xcpretty`](https://github.com/supermarin/xcpretty) utility needs to be installed before running the tests from the command line:
 
     $ gem install xcpretty
 
@@ -264,11 +379,11 @@ Once `xcpretty` is installed, you can execute the suite via `rake test`.
 
 AFNetworking is owned and maintained by the [Alamofire Software Foundation](http://alamofire.org).
 
-AFNetworking was originally created by [Scott Raymond](https://github.com/sco/) and [Mattt Thompson](https://github.com/mattt/) in the development of [Gowalla for iPhone](http://en.wikipedia.org/wiki/Gowalla).
+AFNetworking was originally created by [Scott Raymond](https://github.com/sco/) and [Mattt Thompson](https://github.com/mattt/) in the development of [Gowalla for iPhone](https://en.wikipedia.org/wiki/Gowalla).
 
 AFNetworking's logo was designed by [Alan Defibaugh](http://www.alandefibaugh.com/).
 
-And most of all, thanks to AFNetworking's [growing list of contributors](https://github.com/AFNetworking/AFNetworking/contributors).
+And most of all, thanks to AFNetworking's [growing list of contributors](https://github.com/AFNetworking/AFNetworking/graphs/contributors).
 
 ### Security Disclosure
 

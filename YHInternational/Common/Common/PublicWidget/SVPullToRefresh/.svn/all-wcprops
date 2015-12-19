@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/49031/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh
+END
+BBGRefreshView.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/49031/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/BBGRefreshView.m
+END
+UIScrollView+SVPullToRefresh.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/UIScrollView+SVPullToRefresh.h
+END
+BBGLoadingMoreView.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/BBGLoadingMoreView.m
+END
+UIScrollView+SVInfiniteScrolling.h
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.h
+END
+UIScrollView+SVPullToRefresh.m
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/bbg-code/!svn/ver/47835/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/UIScrollView+SVPullToRefresh.m
+END
+UIScrollView+SVInfiniteScrolling.m
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/bbg-code/!svn/ver/48399/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.m
+END
+BBGRefreshView.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/BBGRefreshView.h
+END
+BBGLoadingMoreView.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/BBGLoadingMoreView.h
+END
+SVPullToRefresh.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/SVPullToRefresh/SVPullToRefresh.h
+END

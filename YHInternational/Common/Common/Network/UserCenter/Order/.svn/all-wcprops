@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order
+END
+BBGOrderAgainPurchaseRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderAgainPurchaseRequest.h
+END
+BBGOrderListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderListRequest.h
+END
+BBGOrderDeleteResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderDeleteResponse.m
+END
+BBGOrderDetailResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderDetailResponse.m
+END
+BBGOrderAgainPurchaseRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderAgainPurchaseRequest.m
+END
+BBGOrderAgainPurchaseResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderAgainPurchaseResponse.h
+END
+BBGOrderListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderListRequest.m
+END
+BBGOrderListResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderListResponse.h
+END
+BBGOrderCancelRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderCancelRequest.h
+END
+BBGOrderAgainPurchaseResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderAgainPurchaseResponse.m
+END
+BBGOrderListResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderListResponse.m
+END
+BBGOrderTracksRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderTracksRequest.h
+END
+BBGOrderCancelRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderCancelRequest.m
+END
+BBGOrderCancelResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderCancelResponse.h
+END
+BBGOrderTracksRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderTracksRequest.m
+END
+BBGOrderConfirmRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderConfirmRequest.h
+END
+BBGOrderTracksResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderTracksResponse.h
+END
+BBGOrderCancelResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderCancelResponse.m
+END
+BBGOrderDeleteRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderDeleteRequest.h
+END
+BBGOrderConfirmRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderConfirmRequest.m
+END
+BBGOrderDetailRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderDetailRequest.h
+END
+BBGOrderTracksResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderTracksResponse.m
+END
+BBGOrderConfirmResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderConfirmResponse.h
+END
+BBGOrderDeleteRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderDeleteRequest.m
+END
+BBGOrderDetailRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderDetailRequest.m
+END
+BBGOrderDeleteResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderDeleteResponse.h
+END
+BBGOrderConfirmResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderConfirmResponse.m
+END
+BBGOrderDetailResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Order/BBGOrderDetailResponse.h
+END

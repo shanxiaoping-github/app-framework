@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions
+END
+HMGLTransitionHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/HMGLTransitionHeader.h
+END
+HMGLTransitionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/HMGLTransitionManager.h
+END
+HMGLTransitionView.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/HMGLTransitionView.h
+END
+DoorsTransition.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/DoorsTransition.h
+END
+HMGLTransition.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/HMGLTransition.h
+END
+HMGLTransitionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/HMGLTransitionManager.m
+END
+HMGLTransitionView.m
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/HMGLTransitionView.m
+END
+DoorsTransition.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/DoorsTransition.m
+END
+HMGLTransition.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Components/Components/Animation/HMGLTransitions/HMGLTransition.m
+END

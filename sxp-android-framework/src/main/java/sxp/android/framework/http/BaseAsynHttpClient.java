@@ -95,7 +95,7 @@ public abstract class BaseAsynHttpClient {
 	 */
 	public void setPramas(Object... params){
 		String[] keys = getPramasKeys();
-		if (null != keys && null != params) {
+		if (null != keys && null != params){
 			if (keys.length != params.length) {
 				throw new SXPException("匹配异常", "参数个数不匹配");
 			} else {

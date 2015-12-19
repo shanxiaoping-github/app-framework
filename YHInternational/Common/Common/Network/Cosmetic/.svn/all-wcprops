@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/bbg-code/!svn/ver/48040/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic
+END
+BBGHealthBrandListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/48040/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic/BBGHealthBrandListRequest.h
+END
+BBGCosmeticBrandListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic/BBGCosmeticBrandListRequest.h
+END
+BBGFoodBrandListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/48040/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic/BBGFoodBrandListRequest.h
+END
+BBGHealthBrandListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/48040/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic/BBGHealthBrandListRequest.m
+END
+BBGCosmeticBrandListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic/BBGCosmeticBrandListRequest.m
+END
+BBGCosmeticBrandListResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic/BBGCosmeticBrandListResponse.h
+END
+BBGFoodBrandListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/48040/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic/BBGFoodBrandListRequest.m
+END
+BBGCosmeticBrandListResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Cosmetic/BBGCosmeticBrandListResponse.m
+END

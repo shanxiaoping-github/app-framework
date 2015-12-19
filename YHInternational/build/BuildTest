@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")"
+cd ..
+
+provisioningProfileName="BuBuGaoEnterpriseDistribution"
+buildBasePath="build/package/"
+buildDate=$(date +%Y-%m-%d_%H-%M) 
+fileDPath=$(date +%Y-%m-%d) 
+xcarchiveFilePath=${buildBasePath}"xcarchive/BubuGao-Test-"${buildDate}".xcarchive"
+ipadFilePath=${buildBasePath}${fileDPath}"/BubuGao-Test-"${buildDate}".ipa"
+
+
+cd ${buildBasePath}   
+if [ ! -d "$fileDPath" ];  then
+ 	mkdir $fileDPath
+fi
+cd ..
+cd ..
+
+
+##xcodebuild clean -configuration Debug
+xcodebuild clean -workspace YHInternational.xcworkspace -scheme YHInternational -configuration  Release archive -archivePath $xcarchiveFilePath 
+
+xcodebuild -exportArchive -exportFormat ipa -archivePath  $xcarchiveFilePath -exportPath $ipadFilePath -exportProvisioningProfile  $provisioningProfileName
+ 
+echo "File Path:"$ipadFilePath
+
+

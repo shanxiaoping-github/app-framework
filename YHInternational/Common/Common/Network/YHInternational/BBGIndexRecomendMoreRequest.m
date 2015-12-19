@@ -1,0 +1,33 @@
+//
+//  BBGIndexRecomendMoreRequest.m
+//  Common
+//
+//  Created by 黄 灿 on 15/7/9.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGIndexRecomendMoreRequest.h"
+#import "BBGIndexRecomendMoreResponse.h"
+@implementation BBGIndexRecomendMoreRequest
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters{
+//    [parameters addParameter:BBGPLATFORM forKey:@"source"];
+    [parameters addParameter:[NSString stringWithFormat:@"%ld",(long)_pageIndex] forKey:@"pageIndex"];
+    [parameters addParameter:[NSString stringWithFormat:@"%ld",(long)_pageSize] forKey:@"pageSize"];
+    [parameters addParameter:@"0" forKey:@"type"];
+    [super buildParameters:parameters];
+}
+
+- (Class)responseClass{
+    return [BBGIndexRecomendMoreResponse class];
+}
+
+@end

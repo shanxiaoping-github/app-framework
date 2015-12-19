@@ -1,0 +1,1001 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational
+END
+BBGSearchRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/48313/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSearchRequest.h
+END
+BBGSubmitOrderResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSubmitOrderResponse.h
+END
+BBGGoodsDetailResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsDetailResponse.m
+END
+BBGSearchRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/48463/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSearchRequest.m
+END
+BBGSubmitOrderResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSubmitOrderResponse.m
+END
+BBGPhoneExtraRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneExtraRequest.h
+END
+BBGGoodsListResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsListResponse.h
+END
+BBGPhoneExtraRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneExtraRequest.m
+END
+BBGGoodsListResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsListResponse.m
+END
+BBGPhraseAssociationResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhraseAssociationResponse.h
+END
+BBGPhoneSeckillResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneSeckillResponse.h
+END
+BBGConfigureResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/48769/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGConfigureResponse.h
+END
+BBGPhraseAssociationResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhraseAssociationResponse.m
+END
+BBGPhoneSeckillResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneSeckillResponse.m
+END
+BBGConfigureResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/48872/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGConfigureResponse.m
+END
+BBGCommentListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCommentListRequest.h
+END
+BBGSelectedAddressRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSelectedAddressRequest.h
+END
+BBGCouponListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCouponListRequest.h
+END
+BBGPaidShareRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPaidShareRequest.h
+END
+BBGCommentListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCommentListRequest.m
+END
+BBGSelectedAddressRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSelectedAddressRequest.m
+END
+BBGCouponListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCouponListRequest.m
+END
+BBGRongRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGRongRequest.h
+END
+BBGPaidShareRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPaidShareRequest.m
+END
+BBGCartNumRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCartNumRequest.h
+END
+BBGRongRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGRongRequest.m
+END
+BBGPmsMsgResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPmsMsgResponse.h
+END
+BBGIndexRecomendMoreResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexRecomendMoreResponse.h
+END
+BBGMaternalORBeautyRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/48041/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGMaternalORBeautyRequest.h
+END
+BBGLoginResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGLoginResponse.h
+END
+BBGCartNumRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCartNumRequest.m
+END
+BBGPmsMsgResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPmsMsgResponse.m
+END
+BBGIndexRecomendMoreResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47738/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexRecomendMoreResponse.m
+END
+BBGMaternalORBeautyRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGMaternalORBeautyRequest.m
+END
+BBGLoginResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGLoginResponse.m
+END
+BBGUploadImgResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUploadImgResponse.h
+END
+BBGGoodsSeckillResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsSeckillResponse.h
+END
+BBGUploadImgResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUploadImgResponse.m
+END
+BBGGoodsSeckillResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsSeckillResponse.m
+END
+BBGGoodsCommentListResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsCommentListResponse.h
+END
+BBGSeckillFastRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSeckillFastRequest.h
+END
+BBGGetLoginVertificationResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGetLoginVertificationResponse.h
+END
+BBGGoodsCommentListResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsCommentListResponse.m
+END
+BBGEvaluateRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGEvaluateRequest.h
+END
+BBGSeckillFastRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSeckillFastRequest.m
+END
+BBGGetLoginVertificationResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGetLoginVertificationResponse.m
+END
+BBGSearchResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSearchResponse.h
+END
+BBGSearchFilterRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSearchFilterRequest.h
+END
+BBGEvaluateRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGEvaluateRequest.m
+END
+BBGSearchResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/48907/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSearchResponse.m
+END
+BBGSearchFilterRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSearchFilterRequest.m
+END
+BBGFirstShareResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGFirstShareResponse.h
+END
+BBGSearchFilterResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSearchFilterResponse.h
+END
+BBGConfigureRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGConfigureRequest.h
+END
+BBGGoodsSeckillRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/48431/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsSeckillRequest.h
+END
+BBGPhoneExtraResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneExtraResponse.h
+END
+BBGSettlementRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSettlementRequest.h
+END
+BBGIndexUpdateIOSRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/48654/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexUpdateIOSRequest.h
+END
+BBGFirstShareResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGFirstShareResponse.m
+END
+BBGSearchFilterResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSearchFilterResponse.m
+END
+BBGConfigureRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/48773/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGConfigureRequest.m
+END
+BBGUseCouponResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUseCouponResponse.h
+END
+BBGGoodsSeckillRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/48431/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsSeckillRequest.m
+END
+BBGPhoneExtraResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneExtraResponse.m
+END
+BBGSettlementRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSettlementRequest.m
+END
+BBGIndexUpdateIOSRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/48695/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexUpdateIOSRequest.m
+END
+BBGGoodsCommentListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsCommentListRequest.h
+END
+BBGUseCouponResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUseCouponResponse.m
+END
+BBGGoodsSpecResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsSpecResponse.h
+END
+BBGUserCountResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCountResponse.h
+END
+BBGGoodsCommentListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsCommentListRequest.m
+END
+BBGGoodsSpecResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsSpecResponse.m
+END
+BBGUserCountResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCountResponse.m
+END
+BBGSeckillFastResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSeckillFastResponse.h
+END
+BBGFirstShareRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGFirstShareRequest.h
+END
+BBGShopCenterReuqest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGShopCenterReuqest.h
+END
+BBGRongResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGRongResponse.h
+END
+BBGSeckillFastResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSeckillFastResponse.m
+END
+BBGFirstShareRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGFirstShareRequest.m
+END
+BBGShopCenterReuqest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGShopCenterReuqest.m
+END
+BBGRongResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGRongResponse.m
+END
+BBGPhoneSeckillRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneSeckillRequest.h
+END
+BBGUploadImgRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUploadImgRequest.h
+END
+BBGPhoneSeckillRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneSeckillRequest.m
+END
+BBGUploadImgRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUploadImgRequest.m
+END
+BBGSettlementResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSettlementResponse.h
+END
+BBGSettlementResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSettlementResponse.m
+END
+BBGSubmitOrderRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSubmitOrderRequest.h
+END
+BBGMoreMaternalORBeautyRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGMoreMaternalORBeautyRequest.h
+END
+BBGPhoneRecommendRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneRecommendRequest.h
+END
+BBGCommentListResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCommentListResponse.h
+END
+BBGSelectedAddressResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSelectedAddressResponse.h
+END
+BBGSubmitOrderRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSubmitOrderRequest.m
+END
+BBGMoreMaternalORBeautyRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGMoreMaternalORBeautyRequest.m
+END
+BBGLogisticsResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGLogisticsResponse.h
+END
+BBGBeautyEffectRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGBeautyEffectRequest.h
+END
+BBGGoodsListRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsListRequest.h
+END
+BBGPhoneRecommendRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneRecommendRequest.m
+END
+BBGLoginRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGLoginRequest.h
+END
+BBGPhoneRecommendResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneRecommendResponse.h
+END
+BBGCommentListResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCommentListResponse.m
+END
+BBGSelectedAddressResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGSelectedAddressResponse.m
+END
+BBGLogisticsResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGLogisticsResponse.m
+END
+BBGBeautyEffectRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGBeautyEffectRequest.m
+END
+BBGGoodsListRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsListRequest.m
+END
+BBGLoginRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47848/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGLoginRequest.m
+END
+BBGPhoneRecommendResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/48545/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhoneRecommendResponse.m
+END
+BBGPhraseAssociationRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhraseAssociationRequest.h
+END
+BBGPhraseAssociationRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPhraseAssociationRequest.m
+END
+BBGIndexUpdateIOSResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/48654/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexUpdateIOSResponse.h
+END
+BBGGoodsDetailRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsDetailRequest.h
+END
+BBGIndexUpdateIOSResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/48654/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexUpdateIOSResponse.m
+END
+BBGAddAdressResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGAddAdressResponse.h
+END
+BBGGoodsDetailRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsDetailRequest.m
+END
+BBGCouponListResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCouponListResponse.h
+END
+BBGAddAdressResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGAddAdressResponse.m
+END
+BBGIndexRecomendMoreRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexRecomendMoreRequest.h
+END
+BBGCouponListResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCouponListResponse.m
+END
+BBGEvaluateResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGEvaluateResponse.h
+END
+BBGIndexRecomendMoreRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexRecomendMoreRequest.m
+END
+BBGUseCouponRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUseCouponRequest.h
+END
+BBGEvaluateResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGEvaluateResponse.m
+END
+BBGRegionRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGRegionRequest.h
+END
+BBGMaternalOrBeautyResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGMaternalOrBeautyResponse.h
+END
+BBGUseCouponRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUseCouponRequest.m
+END
+BBGRegionRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGRegionRequest.m
+END
+BBGRegionResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGRegionResponse.h
+END
+BBGMaternalOrBeautyResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGMaternalOrBeautyResponse.m
+END
+BBGRegionResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/48773/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGRegionResponse.m
+END
+BBGAddAddressRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/48190/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGAddAddressRequest.h
+END
+BBGGetLoginVertificationRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGetLoginVertificationRequest.h
+END
+BBGAddAddressRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGAddAddressRequest.m
+END
+BBGGetLoginVertificationRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGetLoginVertificationRequest.m
+END
+BBGPmsMsgRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPmsMsgRequest.h
+END
+BBGUserCouponResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCouponResponse.h
+END
+BBGPmsMsgRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGPmsMsgRequest.m
+END
+BBGUserCouponResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCouponResponse.m
+END
+BBGShopCenterResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGShopCenterResponse.h
+END
+BBGIndexRecomendRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexRecomendRequest.h
+END
+BBGUserCancelRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCancelRequest.h
+END
+BBGShopCenterResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGShopCenterResponse.m
+END
+BBGUserCountRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCountRequest.h
+END
+BBGIndexRecomendRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexRecomendRequest.m
+END
+BBGUserCancelRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCancelRequest.m
+END
+BBGReplyRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGReplyRequest.h
+END
+BBGUserCountRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCountRequest.m
+END
+BBGReplyRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGReplyRequest.m
+END
+BBGLogisticsRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGLogisticsRequest.h
+END
+BBGUserInfoResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserInfoResponse.h
+END
+BBGReplyResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGReplyResponse.h
+END
+BBGUserCouponRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCouponRequest.h
+END
+BBGLogisticsRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGLogisticsRequest.m
+END
+BBGUserInfoResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserInfoResponse.m
+END
+BBGReplyResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGReplyResponse.m
+END
+BBGUserCouponRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserCouponRequest.m
+END
+BBGBeautyEffectResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGBeautyEffectResponse.h
+END
+BBGCartNumResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCartNumResponse.h
+END
+BBGBeautyEffectResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGBeautyEffectResponse.m
+END
+BBGCartNumResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGCartNumResponse.m
+END
+BBGGoodsSpecRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsSpecRequest.h
+END
+BBGIndexRecomendResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexRecomendResponse.h
+END
+BBGUserInfoRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserInfoRequest.h
+END
+BBGGoodsSpecRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsSpecRequest.m
+END
+BBGIndexRecomendResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGIndexRecomendResponse.m
+END
+BBGUserInfoRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGUserInfoRequest.m
+END
+BBGGoodsDetailResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/YHInternational/BBGGoodsDetailResponse.h
+END

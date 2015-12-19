@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Cloud.framework/Headers
+END
+BMKCloudSearchComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h
+END
+BMKCloudSearchInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchInfo.h
+END
+BMKCloudPOIList.h
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Cloud.framework/Headers/BMKCloudPOIList.h
+END
+BMKCloudSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearch.h
+END
+BMKCloudVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Cloud.framework/Headers/BMKCloudVersion.h
+END

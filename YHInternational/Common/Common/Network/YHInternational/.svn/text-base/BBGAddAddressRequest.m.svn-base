@@ -1,0 +1,47 @@
+//
+//  BBGAddAddressRequest.m
+//  Common
+//
+//  Created by BubuGao on 15-4-23.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGAddAddressRequest.h"
+#import "Common.h"
+
+@implementation BBGAddAddressRequest
+- (id)init {
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+        self.serviceName = @"bubugao.mobile.global.member.address.add";
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [dict DICT_SET_VK(_areaInfo,@"areaInfo")];
+    //[dict DICT_SET_VK(@"湖南_长沙市_岳麓区_麓谷街道:43_430100000000_430104000000_430104030000",@"areaInfo")];
+    [dict DICT_SET_VK(_addr,@"addr")];
+    [dict DICT_SET_VK(_name,@"name")];
+    [dict DICT_SET_VK(_mobile,@"mobile")];
+    [dict DICT_SET_VK(_realName,@"realName")];
+    [dict DICT_SET_VK(_idCard,@"idCard")];
+    [dict DICT_SET_VK(_frontImg,@"frontImg")];
+    [dict DICT_SET_VK(_reverseImg,@"reverseImg")];
+    
+    [parameters addParameter:dict forKey:@"addr"];
+    
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return YES;
+}
+
+- (Class)responseClass {
+    return [BBGAddAdressResponse class];
+}
+
+@end

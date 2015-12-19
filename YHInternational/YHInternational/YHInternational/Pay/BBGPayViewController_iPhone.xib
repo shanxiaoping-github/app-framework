@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansHans-DemiLight.otf">
+            <string>NotoSansHans-DemiLight</string>
+            <string>NotoSansHans-DemiLight</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BBGPayViewController_iPhone">
+            <connections>
+                <outlet property="InfoLabel" destination="I98-aG-2ZP" id="704-mJ-42T"/>
+                <outlet property="countDownLbl" destination="Acj-wo-JBh" id="Zd1-4C-FlJ"/>
+                <outlet property="topView" destination="5QP-E6-gEk" id="cek-WW-nEA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5QP-E6-gEk">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uz2-XP-Rbr">
+                            <rect key="frame" x="-2" y="21" width="54" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="54" id="SqP-Oq-KTu"/>
+                                <constraint firstAttribute="height" constant="39" id="aBk-Na-wxt"/>
+                            </constraints>
+                            <state key="normal" image="Cancel_white">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="dismissView:" destination="-1" eventType="touchUpInside" id="RgJ-8J-AqW"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00 : 00 : 00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acj-wo-JBh">
+                            <rect key="frame" x="67" y="66" width="186" height="37"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="186" id="37M-TU-ylF"/>
+                                <constraint firstAttribute="height" constant="37" id="fkk-fT-MnA"/>
+                                <constraint firstAttribute="height" constant="37" id="qtQ-Wa-Q6V"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansHans-DemiLight" family="Noto Sans S Chinese" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="qtQ-Wa-Q6V"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="成功勾号" translatesAutoresizingMaskIntoConstraints="NO" id="E6p-JG-TBN">
+                            <rect key="frame" x="52" y="125" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="KdP-pS-0AV"/>
+                                <constraint firstAttribute="height" constant="20" id="SQ2-nD-jq3"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="g0K-IX-I1N"/>
+                                <constraint firstAttribute="width" constant="20" id="kFF-rR-H9n"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单已经提交成功请尽快付款.倒计时结束后未付款,订单自动取消." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="188" translatesAutoresizingMaskIntoConstraints="NO" id="I98-aG-2ZP">
+                            <rect key="frame" x="80" y="122" width="188" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="KvH-FJ-xFz"/>
+                                <constraint firstAttribute="height" constant="37" id="mfN-Sb-XYk"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansHans-DemiLight" family="Noto Sans S Chinese" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="mfN-Sb-XYk"/>
+                                </mask>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92549019610000005" green="0.070588235289999995" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="I98-aG-2ZP" firstAttribute="leading" secondItem="E6p-JG-TBN" secondAttribute="trailing" constant="8" id="7cH-eR-e3o"/>
+                        <constraint firstItem="I98-aG-2ZP" firstAttribute="top" secondItem="Acj-wo-JBh" secondAttribute="bottom" constant="19" id="E1i-9b-O54"/>
+                        <constraint firstItem="I98-aG-2ZP" firstAttribute="leading" secondItem="E6p-JG-TBN" secondAttribute="trailing" constant="8" id="Ee2-gZ-9DS"/>
+                        <constraint firstItem="uz2-XP-Rbr" firstAttribute="leading" secondItem="5QP-E6-gEk" secondAttribute="leading" constant="-2" id="GbT-X4-mqE"/>
+                        <constraint firstItem="I98-aG-2ZP" firstAttribute="leading" secondItem="5QP-E6-gEk" secondAttribute="leading" constant="80" id="HtI-hN-jHX"/>
+                        <constraint firstAttribute="trailing" secondItem="I98-aG-2ZP" secondAttribute="trailing" constant="52" id="L5D-YQ-ZKv"/>
+                        <constraint firstAttribute="height" constant="185" id="MPx-3N-nWK"/>
+                        <constraint firstItem="I98-aG-2ZP" firstAttribute="top" secondItem="Acj-wo-JBh" secondAttribute="bottom" constant="17" id="Q7K-gD-TN5"/>
+                        <constraint firstAttribute="height" constant="185" id="Up2-m3-jRm"/>
+                        <constraint firstAttribute="centerY" secondItem="Acj-wo-JBh" secondAttribute="centerY" id="Wqy-aR-dDG"/>
+                        <constraint firstItem="I98-aG-2ZP" firstAttribute="centerY" secondItem="E6p-JG-TBN" secondAttribute="centerY" id="Zdc-UM-xCj"/>
+                        <constraint firstItem="uz2-XP-Rbr" firstAttribute="top" secondItem="5QP-E6-gEk" secondAttribute="top" constant="21" id="cgA-ix-QFo"/>
+                        <constraint firstItem="Acj-wo-JBh" firstAttribute="top" secondItem="5QP-E6-gEk" secondAttribute="top" constant="66" id="jE9-Nh-Igz"/>
+                        <constraint firstAttribute="centerX" secondItem="Acj-wo-JBh" secondAttribute="centerX" id="zmG-hx-t6r"/>
+                        <constraint firstAttribute="bottom" secondItem="I98-aG-2ZP" secondAttribute="bottom" constant="30" id="zof-lV-lw5"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="MPx-3N-nWK"/>
+                            <exclude reference="Wqy-aR-dDG"/>
+                            <exclude reference="7cH-eR-e3o"/>
+                            <exclude reference="Q7K-gD-TN5"/>
+                            <exclude reference="zof-lV-lw5"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5QP-E6-gEk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VAW-MC-Fo5"/>
+                <constraint firstItem="5QP-E6-gEk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XcZ-Aa-neR"/>
+                <constraint firstAttribute="trailing" secondItem="5QP-E6-gEk" secondAttribute="trailing" id="jvf-sc-rlF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Cancel_white" width="17" height="17"/>
+        <image name="成功勾号" width="25" height="25"/>
+    </resources>
+</document>

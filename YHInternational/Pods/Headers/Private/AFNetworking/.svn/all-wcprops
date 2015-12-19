@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking
+END
+UIAlertView+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/UIAlertView+AFNetworking.h
+END
+AFSecurityPolicy.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFSecurityPolicy.h
+END
+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFNetworking.h
+END
+UIWebView+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/UIWebView+AFNetworking.h
+END
+UIButton+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/UIButton+AFNetworking.h
+END
+UIImageView+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/UIImageView+AFNetworking.h
+END
+AFNetworkActivityIndicatorManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFNetworkActivityIndicatorManager.h
+END
+AFURLSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFURLSessionManager.h
+END
+AFURLConnectionOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFURLConnectionOperation.h
+END
+AFHTTPRequestOperationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFHTTPRequestOperationManager.h
+END
+UIActivityIndicatorView+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/UIActivityIndicatorView+AFNetworking.h
+END
+AFNetworkReachabilityManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFNetworkReachabilityManager.h
+END
+UIKit+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/UIKit+AFNetworking.h
+END
+AFURLRequestSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFURLRequestSerialization.h
+END
+AFHTTPRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFHTTPRequestOperation.h
+END
+AFHTTPSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFHTTPSessionManager.h
+END
+AFURLResponseSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/AFURLResponseSerialization.h
+END
+UIProgressView+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/UIProgressView+AFNetworking.h
+END
+UIRefreshControl+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Pods/Headers/Private/AFNetworking/UIRefreshControl+AFNetworking.h
+END

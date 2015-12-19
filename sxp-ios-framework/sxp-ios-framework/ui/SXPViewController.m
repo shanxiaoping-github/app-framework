@@ -19,8 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.navigationController.navigationBar setBarTintColor:[self navigationColor]];
+    [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,nil]];      // Do any additional setup after loading the view.
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -45,5 +48,8 @@
         [activityIndicator stopAnimating];
         [activityIndicator setHidesWhenStopped:YES];
     }
+}
+-(UIColor*)navigationColor{
+    return [UIColor greenColor];
 }
 @end

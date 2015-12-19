@@ -1,0 +1,11 @@
+//
+//  Common-Prefix.pch
+//  Common
+//
+//  Created by Damon on 15/4/8.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#endif

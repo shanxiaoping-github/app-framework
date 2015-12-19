@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/bbg-code/!svn/ver/47891/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/UserCenter/Comment/AllComment/AllCommentCell
+END
+AllCommentImageCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/bbg-code/!svn/ver/47663/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/UserCenter/Comment/AllComment/AllCommentCell/AllCommentImageCell.xib
+END
+AllCommentTextCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/bbg-code/!svn/ver/47663/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/UserCenter/Comment/AllComment/AllCommentCell/AllCommentTextCell.xib
+END
+AllCommentImageCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/bbg-code/!svn/ver/47663/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/UserCenter/Comment/AllComment/AllCommentCell/AllCommentImageCell.h
+END
+AllCommentTextCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/bbg-code/!svn/ver/47663/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/UserCenter/Comment/AllComment/AllCommentCell/AllCommentTextCell.h
+END
+AllCommentImageCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/bbg-code/!svn/ver/47891/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/UserCenter/Comment/AllComment/AllCommentCell/AllCommentImageCell.m
+END
+AllCommentTextCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/bbg-code/!svn/ver/47891/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/UserCenter/Comment/AllComment/AllCommentCell/AllCommentTextCell.m
+END

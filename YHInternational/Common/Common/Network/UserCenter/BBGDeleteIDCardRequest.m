@@ -1,0 +1,38 @@
+//
+//  BBGDeleteIDCardRequest.m
+//  Common
+//
+//  Created by holyjoy on 15/3/4.
+//  Copyright (c) 2015年 BuBuGao. All rights reserved.
+//
+
+#import "BBGDeleteIDCardRequest.h"
+#import "BBGDeleteAddressResponse.h"
+#import "Common.h"
+
+@implementation BBGDeleteIDCardRequest
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    [parameters addParameter:[NSString stringWithFormat:@"%ld",(long)self.IDCardId] forKey:@"certificationId"];
+
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return YES;
+}
+
+- (Class)responseClass {
+    return [BBGDeleteIDCardResponse class];
+}
+
+
+@end

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansHans-Light.otf">
+            <string>NotoSansHans-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="BBGLogisticsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogisticsLine" translatesAutoresizingMaskIntoConstraints="NO" id="Qzn-6D-6sG">
+                        <rect key="frame" x="16" y="0.0" width="1" height="43"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="YaI-7F-MYl"/>
+                            <constraint firstAttribute="width" constant="1" id="cqj-He-NXJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YaI-7F-MYl"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="物流状态小圆点" translatesAutoresizingMaskIntoConstraints="NO" id="sFt-cA-F8T">
+                        <rect key="frame" x="10" y="16" width="12" height="12"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="00G-4I-lwe"/>
+                            <constraint firstAttribute="height" constant="12" id="2pl-Tr-vin"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="278" translatesAutoresizingMaskIntoConstraints="NO" id="Tra-HM-KHe">
+                        <rect key="frame" x="32" y="10" width="248" height="23"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="NotoSansHans-Light" family="Noto Sans S Chinese" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whiteBckg" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-Gd-He0">
+                        <rect key="frame" x="0.0" y="0.0" width="17" height="16"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="nwg-rE-BWU"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whiteBckg" translatesAutoresizingMaskIntoConstraints="NO" id="q9a-Dl-dSr">
+                        <rect key="frame" x="0.0" y="28" width="17" height="15"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="sbR-uv-5ja"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Down_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Uhh-9i-JYI">
+                        <rect key="frame" x="296" y="15" width="14" height="14"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="F3C-SI-TYU"/>
+                            <constraint firstAttribute="width" constant="14" id="rr4-CL-saR"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="sFt-cA-F8T" firstAttribute="top" secondItem="0Ym-Gd-He0" secondAttribute="bottom" id="00N-uw-xl1"/>
+                    <constraint firstAttribute="trailing" secondItem="Uhh-9i-JYI" secondAttribute="trailing" constant="10" id="4Fy-j1-9wY"/>
+                    <constraint firstItem="Tra-HM-KHe" firstAttribute="leading" secondItem="sFt-cA-F8T" secondAttribute="trailing" constant="10" id="4Zu-BV-OvN"/>
+                    <constraint firstAttribute="trailing" secondItem="Tra-HM-KHe" secondAttribute="trailing" constant="40" id="93m-DH-qRk"/>
+                    <constraint firstItem="Qzn-6D-6sG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CcH-GU-bge"/>
+                    <constraint firstItem="0Ym-Gd-He0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FNL-O7-bbg"/>
+                    <constraint firstAttribute="bottom" secondItem="Tra-HM-KHe" secondAttribute="bottom" constant="10" id="FrU-Ej-WRi"/>
+                    <constraint firstItem="q9a-Dl-dSr" firstAttribute="top" secondItem="sFt-cA-F8T" secondAttribute="bottom" id="Ri1-dj-Wuv"/>
+                    <constraint firstAttribute="centerY" secondItem="Uhh-9i-JYI" secondAttribute="centerY" id="S1k-eg-JsQ"/>
+                    <constraint firstItem="sFt-cA-F8T" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="UhV-LX-R55"/>
+                    <constraint firstItem="Tra-HM-KHe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Yl1-P5-Vk3"/>
+                    <constraint firstAttribute="centerY" secondItem="sFt-cA-F8T" secondAttribute="centerY" id="b3T-EX-oBb"/>
+                    <constraint firstItem="q9a-Dl-dSr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dMN-01-hwI"/>
+                    <constraint firstItem="0Ym-Gd-He0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="f5b-K2-V2s"/>
+                    <constraint firstItem="Qzn-6D-6sG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="jmu-jH-OWJ"/>
+                    <constraint firstAttribute="bottom" secondItem="q9a-Dl-dSr" secondAttribute="bottom" id="o2N-D6-W1y"/>
+                    <constraint firstAttribute="bottom" secondItem="Qzn-6D-6sG" secondAttribute="bottom" id="tag-2y-3wx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="contentLabel" destination="Tra-HM-KHe" id="dC4-1e-iol"/>
+                <outlet property="downArrow" destination="Uhh-9i-JYI" id="14Q-Qk-DSb"/>
+                <outlet property="footerView" destination="q9a-Dl-dSr" id="wTW-0H-yfH"/>
+                <outlet property="headerView" destination="0Ym-Gd-He0" id="KY4-wg-pz3"/>
+            </connections>
+            <point key="canvasLocation" x="287" y="200"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Down_arrow" width="12" height="12"/>
+        <image name="LogisticsLine" width="1" height="1"/>
+        <image name="whiteBckg" width="3" height="3"/>
+        <image name="物流状态小圆点" width="11" height="11"/>
+    </resources>
+</document>

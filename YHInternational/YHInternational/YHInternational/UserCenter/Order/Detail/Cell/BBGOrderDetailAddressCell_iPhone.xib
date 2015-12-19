@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansHans-Light.otf">
+            <string>NotoSansHans-Light</string>
+            <string>NotoSansHans-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BBGOrderDetailAddressCell_iPhone" rowHeight="80" id="KGk-i7-Jjw" customClass="BBGOrderDetailAddressCell_iPhone">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="收货地址" translatesAutoresizingMaskIntoConstraints="NO" id="1HQ-on-XXS">
+                        <rect key="frame" x="10" y="10" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="WJI-3p-KeL"/>
+                            <constraint firstAttribute="width" constant="20" id="aCW-jr-QJ3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收货地址" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ez-Lk-6c6">
+                        <rect key="frame" x="40" y="10" width="248" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="7Xt-4f-cjU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NotoSansHans-Light" family="Noto Sans S Chinese" pointSize="15"/>
+                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HorizontalLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="tUv-79-WZP">
+                        <rect key="frame" x="10" y="78" width="310" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Lf3-UG-WMf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="湖南省长沙市岳麓区麓谷大道麓谷信息港A座          彭军  18602065532" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="302" translatesAutoresizingMaskIntoConstraints="NO" id="4BZ-cv-zym">
+                        <rect key="frame" x="10" y="34" width="302" height="41"/>
+                        <fontDescription key="fontDescription" name="NotoSansHans-Light" family="Noto Sans S Chinese" pointSize="14"/>
+                        <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tUv-79-WZP" secondAttribute="bottom" id="3Rk-Jm-fhZ"/>
+                    <constraint firstItem="4BZ-cv-zym" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="4Xa-M0-dGJ"/>
+                    <constraint firstItem="1ez-Lk-6c6" firstAttribute="leading" secondItem="1HQ-on-XXS" secondAttribute="trailing" constant="10" id="7lx-cW-syd"/>
+                    <constraint firstItem="1ez-Lk-6c6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="9hr-dB-q17"/>
+                    <constraint firstAttribute="trailing" secondItem="tUv-79-WZP" secondAttribute="trailing" id="DZl-Fm-VtK"/>
+                    <constraint firstItem="1HQ-on-XXS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="GBQ-JD-LpE"/>
+                    <constraint firstItem="1ez-Lk-6c6" firstAttribute="leading" secondItem="1HQ-on-XXS" secondAttribute="trailing" constant="10" id="HIJ-BV-iCc"/>
+                    <constraint firstItem="4BZ-cv-zym" firstAttribute="top" secondItem="1HQ-on-XXS" secondAttribute="bottom" constant="4" id="JRu-e4-cwa"/>
+                    <constraint firstAttribute="trailing" secondItem="4BZ-cv-zym" secondAttribute="trailing" constant="8" id="LgX-VR-6Cx"/>
+                    <constraint firstItem="1HQ-on-XXS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="NxL-tQ-miQ"/>
+                    <constraint firstItem="4BZ-cv-zym" firstAttribute="top" secondItem="1ez-Lk-6c6" secondAttribute="bottom" constant="3" id="Ucz-r0-9WC"/>
+                    <constraint firstItem="tUv-79-WZP" firstAttribute="top" secondItem="4BZ-cv-zym" secondAttribute="bottom" constant="3" id="bDj-ni-qeE"/>
+                    <constraint firstItem="tUv-79-WZP" firstAttribute="top" secondItem="4BZ-cv-zym" secondAttribute="bottom" constant="3" id="hcy-n7-LSM"/>
+                    <constraint firstItem="4BZ-cv-zym" firstAttribute="top" secondItem="1ez-Lk-6c6" secondAttribute="bottom" constant="3" id="mSF-pd-ld7"/>
+                    <constraint firstAttribute="trailing" secondItem="1ez-Lk-6c6" secondAttribute="trailing" constant="32" id="rOg-JB-WfG"/>
+                    <constraint firstItem="tUv-79-WZP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="yn2-1h-iJC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLbl" destination="4BZ-cv-zym" id="goE-pE-MhJ"/>
+            </connections>
+            <point key="canvasLocation" x="194" y="172"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HorizontalLine.png" width="14" height="14"/>
+        <image name="收货地址" width="16" height="16"/>
+    </resources>
+</document>

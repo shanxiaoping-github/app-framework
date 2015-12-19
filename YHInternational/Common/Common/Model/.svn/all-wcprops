@@ -1,0 +1,893 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model
+END
+BBGTopic.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGTopic.h
+END
+BBGSecondsKillProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSecondsKillProduct.m
+END
+BBGProductTag.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductTag.m
+END
+BBGTopic.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGTopic.m
+END
+BBGSimpleCartModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSimpleCartModel.h
+END
+BBGOrderInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderInfo.h
+END
+BBGGoodsTip.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsTip.h
+END
+BBGSimpleCartModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSimpleCartModel.m
+END
+BBGCartNumModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCartNumModel.h
+END
+BBGOrderInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderInfo.m
+END
+BBGOrderPmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderPmt.h
+END
+BBGGoodsTip.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsTip.m
+END
+BBGCartNumModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCartNumModel.m
+END
+BBGOrderPmt.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderPmt.m
+END
+BBGPromotionItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPromotionItem.h
+END
+BBGPromotionItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPromotionItem.m
+END
+BBGGoodsSpecQuery.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsSpecQuery.h
+END
+BBGProductsCart.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductsCart.h
+END
+BBGPhraseAssociation.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPhraseAssociation.h
+END
+BBGFind.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGFind.h
+END
+BBGGoodsSpecQuery.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsSpecQuery.m
+END
+BBGUserRegion.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUserRegion.h
+END
+BBGUnEvaluateGood.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUnEvaluateGood.h
+END
+BBGProductsCart.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductsCart.m
+END
+BBGPromotionGifts.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPromotionGifts.h
+END
+BBGPhraseAssociation.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPhraseAssociation.m
+END
+BBGAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47817/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGAddress.h
+END
+BBGFind.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGFind.m
+END
+BBGUserRegion.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUserRegion.m
+END
+BBGUnEvaluateGood.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUnEvaluateGood.m
+END
+BBGBeautyEffectModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGBeautyEffectModel.h
+END
+BBGPromotionGifts.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPromotionGifts.m
+END
+BBGCartProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCartProduct.h
+END
+BBGAddress.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47817/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGAddress.m
+END
+BBGBeautyEffectModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGBeautyEffectModel.m
+END
+BBGCartProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCartProduct.m
+END
+BBGPayOrderInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPayOrderInfo.h
+END
+BBGFindCountry.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGFindCountry.h
+END
+BBGPayInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPayInfo.h
+END
+BBGSearchProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSearchProduct.h
+END
+BBGPayOrderInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPayOrderInfo.m
+END
+BBGCancellingReason.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCancellingReason.h
+END
+BBGFindCountry.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGFindCountry.m
+END
+BBGPayInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPayInfo.m
+END
+BBGAbstractBrand.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGAbstractBrand.h
+END
+BBGSearchProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSearchProduct.m
+END
+BBGCancellingReason.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCancellingReason.m
+END
+BBGPriceRange.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPriceRange.h
+END
+BBGAbstractBrand.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGAbstractBrand.m
+END
+BBGProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/48735/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProduct.h
+END
+BBGPriceRange.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPriceRange.m
+END
+BBGGoodsDetailImages.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsDetailImages.h
+END
+BBGProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/48735/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProduct.m
+END
+BBGUserHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUserHeader.h
+END
+BBGPaymentInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPaymentInfo.h
+END
+BBGGoodsDetailImages.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsDetailImages.m
+END
+BBGUserHeader.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUserHeader.m
+END
+BBGPaymentInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPaymentInfo.m
+END
+BBGOrderTrack.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderTrack.h
+END
+BBGUploadImgModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUploadImgModel.h
+END
+BBGOrderTrack.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderTrack.m
+END
+BBGUploadImgModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUploadImgModel.m
+END
+BBGCategory.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCategory.h
+END
+BBGCategory.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCategory.m
+END
+BBGPraiseProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPraiseProduct.h
+END
+BBGPopularBrand.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPopularBrand.h
+END
+BBGPraiseProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPraiseProduct.m
+END
+BBGLaunchModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGLaunchModel.h
+END
+BBGPopularBrand.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPopularBrand.m
+END
+BBGLaunchModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGLaunchModel.m
+END
+BBGGSSeckillModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGSSeckillModel.h
+END
+BBGProductCartPromotion.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductCartPromotion.h
+END
+BBGAttribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGAttribute.h
+END
+BBGCoupon.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCoupon.h
+END
+BBGGSSeckillModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGSSeckillModel.m
+END
+BBGProductCartPromotion.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductCartPromotion.m
+END
+BBGPraiseMembs.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPraiseMembs.h
+END
+BBGAttribute.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGAttribute.m
+END
+BBGCoupon.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCoupon.m
+END
+BBGOrderProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderProduct.h
+END
+BBGPraiseMembs.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPraiseMembs.m
+END
+BBGOrderSelfArea.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderSelfArea.h
+END
+BBGOrderProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderProduct.m
+END
+BBGOrderSelfArea.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGOrderSelfArea.m
+END
+BBGPopularProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPopularProduct.h
+END
+BBGSettlement.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSettlement.h
+END
+BBGPopularProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPopularProduct.m
+END
+BBGGoodsBasicInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsBasicInfo.h
+END
+BBGSettlement.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47999/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSettlement.m
+END
+BBGGoodsBasicInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsBasicInfo.m
+END
+BBGPhoneSeckillModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPhoneSeckillModel.h
+END
+BBGGoodsSpecInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsSpecInfo.h
+END
+BBGPhoneSeckillModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47264/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPhoneSeckillModel.m
+END
+BBGGoodsSpecInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsSpecInfo.m
+END
+BBGGSFastModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGSFastModel.h
+END
+BBGAdvProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/48743/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGAdvProduct.h
+END
+BBGPromotionActivities.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPromotionActivities.h
+END
+BBGGSFastModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGSFastModel.m
+END
+BBGAdvProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/48743/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGAdvProduct.m
+END
+BBGPromotionActivities.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPromotionActivities.m
+END
+BBGProductsCartGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductsCartGroup.h
+END
+BBGProductsCartGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductsCartGroup.m
+END
+BBGCommentedGoods.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCommentedGoods.h
+END
+BBGFilterAttribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGFilterAttribute.h
+END
+BBGCommentedGoods.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGCommentedGoods.m
+END
+BBGFilterAttribute.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGFilterAttribute.m
+END
+BBGRegion.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGRegion.h
+END
+BBGRegion.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGRegion.m
+END
+BBGShareOrder.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/49219/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGShareOrder.h
+END
+BBGProductSpecVo.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductSpecVo.h
+END
+BBGComment.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47891/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGComment.h
+END
+BBGShareOrder.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/49219/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGShareOrder.m
+END
+BBGPmsMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPmsMessage.h
+END
+BBGProductSpecVo.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductSpecVo.m
+END
+BBGComment.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/48797/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGComment.m
+END
+BBGPmsMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPmsMessage.m
+END
+BBGRecommendProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/48743/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGRecommendProduct.h
+END
+BBGSettlementPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSettlementPacket.h
+END
+BBGUserDetailInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUserDetailInfo.h
+END
+BBGSubAttribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSubAttribute.h
+END
+BBGFindCategory.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGFindCategory.h
+END
+BBGRecommendProduct.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/48743/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGRecommendProduct.m
+END
+BBGSettlementPacket.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSettlementPacket.m
+END
+BBGUserDetailInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUserDetailInfo.m
+END
+BBGSubAttribute.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSubAttribute.m
+END
+ErrorMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/ErrorMessage.h
+END
+BBGGoodsSpecValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsSpecValue.h
+END
+BBGFindCategory.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGFindCategory.m
+END
+BBGShareModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGShareModel.h
+END
+BBGBrand.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGBrand.h
+END
+BBGIDCard.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/bbg-code/!svn/ver/47736/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGIDCard.h
+END
+BBGShareModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGShareModel.m
+END
+BBGGoodsSpecValue.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGGoodsSpecValue.m
+END
+ErrorMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/ErrorMessage.m
+END
+BBGUserInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUserInfo.h
+END
+BBGReply.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/bbg-code/!svn/ver/47891/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGReply.h
+END
+BBGPayType.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPayType.h
+END
+BBGBrand.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGBrand.m
+END
+BBGIDCard.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/bbg-code/!svn/ver/47736/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGIDCard.m
+END
+BBGImgModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGImgModel.h
+END
+BBGUserInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGUserInfo.m
+END
+BBGReply.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/bbg-code/!svn/ver/47891/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGReply.m
+END
+BBGPayType.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPayType.m
+END
+BBGPromotionInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPromotionInfo.h
+END
+BBGImgModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGImgModel.m
+END
+BBGPromotionInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGPromotionInfo.m
+END
+BBGSecondsKillProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGSecondsKillProduct.h
+END
+BBGProductTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Model/BBGProductTag.h
+END

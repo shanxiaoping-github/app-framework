@@ -1,0 +1,93 @@
+//
+//  BBGShareOrderEditCell_iPhone.m
+//  YHInternational
+//
+//  Created by yousai on 15/10/21.
+//  Copyright © 2015年 Bubugao. All rights reserved.
+//  
+
+#import "BBGShareOrderEditCell_iPhone.h"
+#import "ImageCollectionViewCell.h"
+#import <Common/Common.h>
+@interface BBGShareOrderEditCell_iPhone ()<UITextViewDelegate>
+
+    @property (strong, nonatomic) IBOutlet UIButton *anonymousBtn;
+    @property (strong, nonatomic) IBOutlet UILabel *commentNum;
+    @property (strong, nonatomic) IBOutlet UIImageView *bgView;
+
+@end
+
+@implementation BBGShareOrderEditCell_iPhone
+
+- (void)awakeFromNib
+{
+    /*************************编辑晒单评论*********************************/
+    self.commentNum.text = @"0/500";
+    self.textView.delegate = self;
+    self.textView.returnKeyType = UIReturnKeyDone;
+    self.textView.tintColor = UIColorFromHexadecimalRGB(0xf03468);
+    self.bgView.image = _ResizeImage([UIImage imageNamed:@"universal_input_bg"]);
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+{
+    [super setSelected:selected animated:animated];
+}
+
+
+#pragma mark =========================文本域编辑框===============================
+- (void)displayTextContent:(NSString *)text isAnonymous:(BOOL)isAnonymous{
+    self.textView.text = text;
+    
+    self.commentNum.text = [NSString stringWithFormat:@"%lu/500",(unsigned long)text.length];
+    self.anonymousBtn.selected = isAnonymous;
+}
+
+- (void)textViewDidChange:(UITextView *)textView{
+    //该判断用于联想输入
+    if (textView.text.length > 500)
+    {
+        textView.text = [textView.text substringToIndex:500];
+    }
+    
+    self.commentNum.text = [NSString stringWithFormat:@"%lu/500",(unsigned long)textView.text.length];
+}
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text; {
+    
+    if ([@"\n" isEqualToString:text] == YES) {
+        [textView resignFirstResponder];
+        return NO;
+    }
+    return YES;
+}
+
+
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+{
+    self.commentNum.text = [NSString stringWithFormat:@"%lu/500",(unsigned long)textView.text.length];
+    if (self.delegate &&[self.delegate respondsToSelector:@selector(changeTable:str:isAnonymous:)]) {
+        [self.delegate changeTable:self.tag str:@"" isAnonymous:NO];
+    }
+    return YES;
+}
+
+- (BOOL)textViewShouldEndEditing:(UITextView *)textView
+{
+    if (self.delegate && [self.delegate respondsToSelector:@selector(changeTable:str:isAnonymous:)]) {
+        [self.delegate changeTable:self.tag str:textView.text isAnonymous:self.anonymousBtn.selected];
+    }
+    return YES;
+}
+
+- (IBAction)anonymousComment:(id)sender
+{
+    ((UIButton *)sender).selected = !((UIButton *)sender).selected;
+    if (self.delegate && [self.delegate respondsToSelector:@selector(changeTable:str:isAnonymous:)]) {
+        [self.delegate changeTable:self.tag str:self.textView.text isAnonymous:self.anonymousBtn.selected];
+    }
+    
+}
+
+
+@end

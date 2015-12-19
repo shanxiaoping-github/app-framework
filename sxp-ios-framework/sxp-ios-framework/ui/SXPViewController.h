@@ -15,4 +15,6 @@
 -(void)showIndicatorViewPointX:(CGFloat)x pointY:(CGFloat)y;
 //隐藏菊花条
 -(void)stopIndicatorView;
+//导航栏颜色,子类重写
+-(UIColor*)navigationColor;
 @end

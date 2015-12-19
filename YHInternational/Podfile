@@ -1,0 +1,16 @@
+platform :ios, '7.0'
+
+workspace 'YHInternational.xcworkspace'
+
+xcodeproj 'YHInternational/YHInternational.xcodeproj'
+
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'JSONKit-NoWarning'
+pod 'IQKeyboardManager'
+pod 'MBProgressHUD'
+pod 'SVProgressHUD', :head
+pod 'Masonry'
+pod 'FMDB'
+pod 'BlocksKit'

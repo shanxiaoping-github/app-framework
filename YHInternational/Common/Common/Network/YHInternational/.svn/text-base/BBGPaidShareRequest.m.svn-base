@@ -1,0 +1,40 @@
+//
+//  BBGPaidShareRequest.m
+//  Common
+//
+//  Created by 彭腾 on 15/5/21.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGPaidShareRequest.h"
+#import "BBGFirstShareResponse.h"
+#import "BBGConfiguration.h"
+
+@implementation BBGPaidShareRequest
+
+- (id)init{
+    self = [super init];
+    if (self) {
+        self.serviceName = @"bubugao.mobile.global.trade.share.paid";
+        self.method = BBGHttpMethodPost;
+        self.ecode = [BBGConfiguration sharedInstance].eCode ;
+        self.ucode = [BBGConfiguration sharedInstance].uCode ;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters{
+    [parameters addParameter:_orderId forKey:@"orderId"] ;
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return YES ;
+}
+
+- (Class)responseClass{
+    return [BBGFirstShareResponse class];
+}
+
+
+@end

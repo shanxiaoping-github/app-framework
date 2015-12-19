@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay
+END
+BBGPayInfoRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPayInfoRequest.h
+END
+BBGPaySignInfoRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPaySignInfoRequest.h
+END
+BBGPayTypeResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPayTypeResponse.m
+END
+BBGPayInfoRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPayInfoRequest.m
+END
+BBGPayInfoResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPayInfoResponse.h
+END
+BBGPaySignInfoRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPaySignInfoRequest.m
+END
+BBGPayTypeRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPayTypeRequest.h
+END
+BBGPaySignInfoResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPaySignInfoResponse.h
+END
+BBGPayInfoResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPayInfoResponse.m
+END
+BBGPayTypeRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPayTypeRequest.m
+END
+BBGPaySignInfoResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPaySignInfoResponse.m
+END
+BBGPayTypeResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/UserCenter/Pay/BBGPayTypeResponse.h
+END

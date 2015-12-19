@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/bbg-code/!svn/ver/49215/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/main.m
+END
+PushConfig.plist
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/PushConfig.plist
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/AppDelegate.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/49175/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/Info.plist
+END
+BBGMainViewController_iPhone.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/BBGMainViewController_iPhone.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/bbg-code/!svn/ver/49170/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/AppDelegate.m
+END
+BBGMainViewController_iPhone.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/48019/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/BBGMainViewController_iPhone.m
+END
+BBGContentViewController_iPhone.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/BBGContentViewController_iPhone.h
+END
+YHInternational-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/YHInternational-Prefix.pch
+END
+BBGContentViewController_iPhone.mm
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/49033/phone/IOS/YHInternational/trunk/YHInternational/YHInternational/YHInternational/BBGContentViewController_iPhone.mm
+END

@@ -1,0 +1,24 @@
+//
+//  BBGShareOrder.m
+//  Common
+//
+//  Created by bbgds on 15/10/27.
+//  Copyright © 2015年 Bubugao. All rights reserved.
+//  晒单对象
+
+#import "BBGShareOrder.h"
+
+@implementation BBGShareOrder
+
+-(id)init
+{
+    self = [super init];
+    if(self)
+    {
+        _picDataArray = [[NSMutableArray alloc] init];
+        _comment = @"";
+    }
+    return self;
+}
+
+@end

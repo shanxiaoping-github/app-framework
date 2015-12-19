@@ -1,0 +1,31 @@
+//
+//  BBGShareOrderEditCell_iPhone.h
+//  YHInternational
+//
+//  Created by yousai on 15/10/21.
+//  Copyright © 2015年 Bubugao. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@protocol BBGShareOrderEditCellDelegate <NSObject>
+
+- (void)changeTable:(NSInteger)type str:(NSString *)str isAnonymous:(BOOL)isAnonymous;
+
+@end
+
+/**
+ *  晒单CELL
+ */
+@interface BBGShareOrderEditCell_iPhone : UITableViewCell
+
+@property (strong, nonatomic) IBOutlet UIImageView *goodsImageView;
+@property (strong, nonatomic) IBOutlet UILabel *goodsDescLabel;
+@property (strong, nonatomic) IBOutlet UILabel *goodsPriceLabel;
+
+@property (strong, nonatomic) IBOutlet UITextView *textView;
+
+@property (weak, nonatomic) id<BBGShareOrderEditCellDelegate> delegate;
+- (void)displayTextContent:(NSString *)text isAnonymous:(BOOL)isAnonymous;
+
+@end

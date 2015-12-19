@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController
+END
+TOCropToolbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropToolbar.h
+END
+TOActivityCroppedImageProvider.h
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOActivityCroppedImageProvider.h
+END
+TOCropToolbar.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropToolbar.m
+END
+UIImage+CropRotate.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/UIImage+CropRotate.h
+END
+TOActivityCroppedImageProvider.m
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOActivityCroppedImageProvider.m
+END
+TOCropView.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropView.h
+END
+TOCropOverlayView.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropOverlayView.h
+END
+UIImage+CropRotate.m
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/UIImage+CropRotate.m
+END
+TOCropViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropViewController.h
+END
+TOCropView.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropView.m
+END
+TOCropOverlayView.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropOverlayView.m
+END
+TOCroppedImageAttributes.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCroppedImageAttributes.h
+END
+TOCropViewControllerLocalizable.strings
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropViewControllerLocalizable.strings
+END
+TOCropViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropViewController.m
+END
+TOCropViewControllerTransitioning.h
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropViewControllerTransitioning.h
+END
+TOCroppedImageAttributes.m
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCroppedImageAttributes.m
+END
+TOCropScrollView.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropScrollView.h
+END
+TOCropViewControllerTransitioning.m
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropViewControllerTransitioning.m
+END
+TOCropScrollView.m
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/PublicWidget/TOCropViewController/TOCropScrollView.m
+END

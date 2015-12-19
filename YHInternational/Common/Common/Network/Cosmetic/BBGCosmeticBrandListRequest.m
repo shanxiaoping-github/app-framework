@@ -1,0 +1,39 @@
+//
+//  BBGCosmeticBrandListRequest.m
+//  Common
+//
+//  Created by OuyangTimmy on 15/7/21.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGCosmeticBrandListRequest.h"
+#import "BBGCosmeticBrandListResponse.h"
+#import "BBGSession.h"
+
+@implementation BBGCosmeticBrandListRequest
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    
+    return [BBGSession sharedInstance].isLogin;
+}
+
+- (Class)responseClass {
+    
+    return [BBGCosmeticBrandListResponse class];
+}
+
+@end

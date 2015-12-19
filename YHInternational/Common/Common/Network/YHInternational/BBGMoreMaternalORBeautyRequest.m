@@ -1,0 +1,34 @@
+//
+//  BBGMoreMaternalORBeautyRequest.m
+//  Common
+//
+//  Created by 刘薇 on 15/7/27.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGMoreMaternalORBeautyRequest.h"
+#import "BBGIndexRecomendMoreResponse.h"
+
+@implementation BBGMoreMaternalORBeautyRequest
+- (id)init{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters{
+    
+    [parameters addParameter:[NSString stringWithFormat:@"%ld",(long)self.type] forKey:@"type"];
+    [parameters addParameter:[NSString stringWithFormat:@"%ld",(long)_pageIndex] forKey:@"pageIndex"];
+    [parameters addParameter:[NSString stringWithFormat:@"%ld",(long)_pageSize] forKey:@"pageSize"];
+    [super buildParameters:parameters];
+    
+}
+
+- (Class)responseClass{
+    return [BBGIndexRecomendMoreResponse class];
+}
+
+@end

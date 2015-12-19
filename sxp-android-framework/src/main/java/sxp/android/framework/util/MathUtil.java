@@ -1,5 +1,6 @@
 package sxp.android.framework.util;
 
+import java.math.BigDecimal;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -245,6 +246,23 @@ public class MathUtil {
 		// listView.getDividerHeight()获取子项间分隔符占用的高度
 		// params.height最后得到整个ListView完整显示需要的高度
 		listView.setLayoutParams(params);
+	}
+	
+	/*
+	* @Title: decimalmultip
+	* @Description: 大数相乘
+	* @param @param value1
+	* @param @param value2
+	* @param @return
+	* @return String
+	* @throws
+	* @data 2015年12月16日
+	 */
+	public static String decimalmultip(String value1,String value2){
+		BigDecimal decimal1 = new BigDecimal(value1);
+		BigDecimal decimal2 = new BigDecimal(value2);
+		BigDecimal resultDecimal = decimal1.multiply(decimal2);
+		return resultDecimal.toString();
 	}
 
 }

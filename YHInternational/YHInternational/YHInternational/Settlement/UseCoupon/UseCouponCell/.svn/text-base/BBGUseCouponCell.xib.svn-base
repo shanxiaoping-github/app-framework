@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansHans-Light.otf">
+            <string>NotoSansHans-Light</string>
+            <string>NotoSansHans-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BBGUseCoupon" rowHeight="452" id="KGk-i7-Jjw" customClass="BBGUseCouponCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9UO-ru-TCJ">
+                        <rect key="frame" x="10" y="10" width="300" height="50"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.93725490196078431" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="qDG-OS-c0e"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NotoSansHans-Light" family="Noto Sans S Chinese" pointSize="15"/>
+                        <state key="normal">
+                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected">
+                            <color key="titleColor" red="0.94117647059999998" green="0.20392156859999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="couponAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="aqB-GI-usK"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bl5-k2-wvk">
+                        <rect key="frame" x="10" y="53" width="1" height="6"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Q0a-QB-VBz"/>
+                            <constraint firstAttribute="height" constant="6" id="dJH-vG-POf"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tXB-vH-L8c">
+                        <rect key="frame" x="309" y="53" width="1" height="6"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="6" id="5Xu-JF-hG2"/>
+                            <constraint firstAttribute="width" constant="1" id="EXq-uC-l3G"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9fz-Fa-1qe">
+                        <rect key="frame" x="269" y="20" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="Lbf-Wu-ewE"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yh-fw-mQA">
+                        <rect key="frame" x="269" y="20" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="ECK-VC-xcR"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="buttonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="L9Y-4w-BOd"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5WG-Wc-w6G">
+                        <rect key="frame" x="10" y="24" width="251" height="21"/>
+                        <fontDescription key="fontDescription" name="NotoSansHans-Light" family="Noto Sans S Chinese" pointSize="15"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="5WG-Wc-w6G" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="7JV-L4-xcx"/>
+                    <constraint firstItem="5WG-Wc-w6G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="7Zt-j5-qAc"/>
+                    <constraint firstAttribute="trailing" secondItem="tXB-vH-L8c" secondAttribute="trailing" constant="10" id="7tn-ZT-ajU"/>
+                    <constraint firstAttribute="centerY" secondItem="3yh-fw-mQA" secondAttribute="centerY" constant="-5.25" id="8Kr-li-zC2"/>
+                    <constraint firstItem="3yh-fw-mQA" firstAttribute="leading" secondItem="5WG-Wc-w6G" secondAttribute="trailing" constant="8" id="FC9-1m-3u2"/>
+                    <constraint firstAttribute="trailing" secondItem="9fz-Fa-1qe" secondAttribute="trailing" constant="21" id="FyW-9V-JNU"/>
+                    <constraint firstAttribute="bottom" secondItem="tXB-vH-L8c" secondAttribute="bottom" id="IAI-pU-1GQ"/>
+                    <constraint firstAttribute="bottom" secondItem="5WG-Wc-w6G" secondAttribute="bottom" constant="14.5" id="PFK-6h-0AZ"/>
+                    <constraint firstItem="9fz-Fa-1qe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="RHG-1D-RVL"/>
+                    <constraint firstItem="9UO-ru-TCJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="gbU-aC-nJA"/>
+                    <constraint firstAttribute="trailing" secondItem="9UO-ru-TCJ" secondAttribute="trailing" constant="10" id="jEr-eJ-abG"/>
+                    <constraint firstAttribute="centerY" secondItem="9fz-Fa-1qe" secondAttribute="centerY" constant="-5" id="kGj-Ua-MJu"/>
+                    <constraint firstItem="Bl5-k2-wvk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="l3t-34-ZD0"/>
+                    <constraint firstAttribute="bottom" secondItem="Bl5-k2-wvk" secondAttribute="bottom" id="mlx-at-Nhx"/>
+                    <constraint firstAttribute="trailing" secondItem="3yh-fw-mQA" secondAttribute="trailing" constant="21" id="oSD-A2-jhl"/>
+                    <constraint firstItem="3yh-fw-mQA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="rOe-uF-SdH"/>
+                    <constraint firstItem="9UO-ru-TCJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="zVj-wA-mad"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.94117647059999998" green="0.93725490199999995" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="couponBtn" destination="9UO-ru-TCJ" id="5xv-w4-wSx"/>
+                <outlet property="inStrButton" destination="3yh-fw-mQA" id="OAh-p8-qSJ"/>
+                <outlet property="instrBtn" destination="9fz-Fa-1qe" id="A0w-DL-jP3"/>
+                <outlet property="leftView" destination="Bl5-k2-wvk" id="lFf-v4-6tU"/>
+                <outlet property="rightView" destination="tXB-vH-L8c" id="N1y-e3-QsT"/>
+                <outlet property="titleLab" destination="5WG-Wc-w6G" id="TIb-sd-rX9"/>
+            </connections>
+            <point key="canvasLocation" x="171" y="334"/>
+        </tableViewCell>
+    </objects>
+</document>

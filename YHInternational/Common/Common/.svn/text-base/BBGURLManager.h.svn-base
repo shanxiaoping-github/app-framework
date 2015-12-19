@@ -1,0 +1,41 @@
+//
+//  BBGURLManager.h
+//  Common
+//
+//  Created by yangjie on 15/6/26.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#define TEST
+
+#ifdef TEST
+#define UMENG_APPKEY @"55532483e0f55ab396002bed"
+#define UNIONPAYMODE @"01"
+#else
+#define UMENG_APPKEY @"5534bf4667e58e508d00140a"
+#define UNIONPAYMODE @"00"
+#endif
+
+#ifdef TEST
+//#define SERVER_URL_ROOT @"http://global.api.yunhou.com/yunhou-global-api"
+//#define SERVER_URL_ROOT @"http://10.201.7.140:8080/bubugao-global-api"
+//#define SERVER_URL_ROOT @"http://10.200.51.93:9250/bubugao-global-api"
+//#define SERVER_URL_ROOT @"http://10.200.51.104:8080/bubugao-mobile-api"
+//#define SERVER_URL_ROOT @"http://10.200.51.158:8867/bubugao-global-api"
+#define SERVER_URL_ROOT @"http://10.200.51.113:8867/bubugao-global-api"
+//#define SERVER_URL_ROOT @"http://10.200.51.168:9240/bubugao-global-api"
+
+//#define SERVER_URL_ROOT @"http://10.200.51.168:9250/bubugao-global-api"
+//#define SERVER_URL_ROOT @"http://10.200.52.181:8867/yunhou-globao-api"
+//#define SERVER_URL_ROOT @"http://218.76.52.6:8885/bubugao-global-api/service"
+#else
+#define SERVER_URL_ROOT @"http://global.api.yunhou.com/yunhou-global-api"
+#endif
+
+extern NSString *SERVER_URL;
+
+@interface BBGURLManager : NSObject
+
+@end

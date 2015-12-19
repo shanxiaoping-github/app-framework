@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/bbg-code/!svn/ver/47922/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session
+END
+BBGWebChatPassport.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGWebChatPassport.m
+END
+BBGVertificationRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGVertificationRequest.h
+END
+BBGRegisterSmsRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/bbg-code/!svn/ver/47922/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterSmsRequest.h
+END
+BBGPassport.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGPassport.m
+END
+BBGQQPassport.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGQQPassport.m
+END
+BBGSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGSession.h
+END
+BBGVertificationRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGVertificationRequest.m
+END
+BBGRegisterSmsRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/bbg-code/!svn/ver/47922/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterSmsRequest.m
+END
+BBGVertificationResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGVertificationResponse.h
+END
+BBGRegisterSmsResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterSmsResponse.h
+END
+BBGRegisterImageVertificationRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47922/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterImageVertificationRequest.h
+END
+BBGMembershipPassport.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGMembershipPassport.h
+END
+BBGSession.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGSession.m
+END
+BBGVertificationResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGVertificationResponse.m
+END
+BBGRegisterSmsResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterSmsResponse.m
+END
+BBGRegisterImageVertificationRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/bbg-code/!svn/ver/47922/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterImageVertificationRequest.m
+END
+BBGMembershipPassport.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGMembershipPassport.m
+END
+BBGRegisterRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterRequest.h
+END
+BBGRegisterImageVertificationResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterImageVertificationResponse.h
+END
+BBGRegisterRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterRequest.m
+END
+BBGRegisterImageVertificationResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterImageVertificationResponse.m
+END
+BBGRegisterResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterResponse.h
+END
+BBGRegisterResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGRegisterResponse.m
+END
+BBGWebChatPassport.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGWebChatPassport.h
+END
+BBGPassport.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGPassport.h
+END
+BBGQQPassport.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/Session/BBGQQPassport.h
+END

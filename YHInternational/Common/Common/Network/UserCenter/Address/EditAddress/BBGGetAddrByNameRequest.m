@@ -1,0 +1,35 @@
+//
+//  BBGGetAddrByNameRequest.m
+//  Common
+//
+//  Created by yangjie on 15/5/6.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGGetAddrByNameRequest.h"
+#import "BBGGetAddrByNameResponse.h"
+
+@implementation BBGGetAddrByNameRequest
+
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    [parameters addParameter:_name forKey:@"userName"];
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return YES;
+}
+
+- (Class)responseClass{
+    return [BBGGetAddrByNameResponse class];
+}
+
+@end

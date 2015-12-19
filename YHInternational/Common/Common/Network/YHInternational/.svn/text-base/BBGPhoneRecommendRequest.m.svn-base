@@ -1,0 +1,37 @@
+//
+//  BBGPhoneRecommendRequest.m
+//  Common
+//
+//  Created by 黄 灿 on 15/7/27.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGPhoneRecommendRequest.h"
+#import "BBGPhoneRecommendResponse.h"
+@implementation BBGPhoneRecommendRequest
+- (id)init {
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+        self.serviceName = @"bubugao.mobile.global.index.newRecommendProduct.getV1.1";
+        self.page = 1;
+        self.pageSize = 20;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    
+    
+    [parameters addParameter:[NSString stringWithFormat:@"%lu",(unsigned long)_page] forKey:@"pageIndex"];
+    [parameters addParameter:[NSString stringWithFormat:@"%lu",(unsigned long)_pageSize] forKey:@"pageSize"];
+    
+    [super buildParameters:parameters];
+    
+}
+
+- (Class)responseClass {
+    return [BBGPhoneRecommendResponse class];
+}
+
+@end

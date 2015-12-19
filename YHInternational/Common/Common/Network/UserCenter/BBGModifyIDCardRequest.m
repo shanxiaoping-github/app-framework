@@ -1,0 +1,48 @@
+//
+//  BBGModifyIDCardRequest.m
+//  Common
+//
+//  Created by holyjoy on 15/3/5.
+//  Copyright (c) 2015年 BuBuGao. All rights reserved.
+//
+
+#import "BBGModifyIDCardRequest.h"
+#import "BBGModifyIDCardResponse.h"
+#import "Common.h"
+
+@implementation BBGModifyIDCardRequest
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+
+        
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [dict DICT_SET_VK(_IDCard.frontImgKey,@"frontImg")];
+    [dict DICT_SET_VK(@(_IDCard.IDCardId),@"id")];
+    [dict DICT_SET_VK(_IDCard.mIDNumber,@"idCard")];
+    [dict DICT_SET_VK(_IDCard.IDName,@"realName")];
+    [dict DICT_SET_VK(_IDCard.reverseImgKey,@"reverseImg")];
+    
+    [parameters addParameter:dict forKey:@"certification"];
+    
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return YES;
+}
+
+- (Class)responseClass {
+    return [BBGModifyIDCardResponse class];
+}
+
+
+@end

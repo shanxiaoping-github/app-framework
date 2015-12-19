@@ -1,0 +1,6 @@
+framework module SobotSDK {
+  umbrella header "SobotSDK.h"
+
+  export *
+  module * { export * }
+}

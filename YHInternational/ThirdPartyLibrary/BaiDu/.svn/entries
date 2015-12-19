@@ -1,0 +1,83 @@
+10
+
+dir
+49218
+http://yousai%40bubugao.com@10.200.51.181/svn/bbg-code/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu
+http://yousai%40bubugao.com@10.200.51.181/svn/bbg-code
+
+
+
+2015-11-02T02:45:45.135646Z
+49032
+xiaodaguang@bubugao.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6afc59d2-339c-df4d-873b-91eefe124a60
+
+BaiduMapAPI_Location.framework
+dir
+
+BaiduMapAPI_Radar.framework
+dir
+
+BaiduMapAPI_Base.framework
+dir
+
+BaiduMapAPI_Map.framework
+dir
+
+BaiduMapAPI_Utils.framework
+dir
+
+BaiduMap.h
+file
+
+
+
+
+2015-11-11T07:29:06.000000Z
+36e28e22ea23efadd0ca1494736c836e
+2015-11-02T02:45:45.135646Z
+49032
+xiaodaguang@bubugao.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+823
+
+BaiduMapAPI_Search.framework
+dir
+
+BaiduMapAPI_Cloud.framework
+dir
+

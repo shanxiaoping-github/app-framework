@@ -1,0 +1,239 @@
+//
+//  BBGRequest.m
+//  Common
+//
+//  Created by Damon on 15/4/7.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGRequest.h"
+#import "BBGResponse.h"
+#import "BBGCache.h"
+#import "BBGUserRegion.h"
+#import "JSONKit.h"
+#import "BBGConfiguration.h"
+#import "BBGLoginResponse.h"
+#import "BBGSession.h"
+@interface BBGRequest()
+@end
+
+@implementation BBGRequest
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+        self.responseFormat = ResponseDataFormatJson;
+    }
+    return self;
+}
+
+- (void)sendWithSuccessBlock:(void (^)(AFHTTPRequestOperation *, BBGResponse *))success failure:(void (^)(AFHTTPRequestOperation *, NSString *, NSString *))failure data:(UploadDataBlock)uploadDataBlock{
+    
+    
+    if (self.method == BBGHttpMethodGet) {
+        __weak BBGRequest * weakSelf = self;
+        
+        
+        self.successBlock = ^(AFHTTPRequestOperation *operation, id responseObject) {
+            if (operation.response) {
+                [[BBGConfiguration sharedInstance] getTimeDifferenceWithServerTime:operation.response.allHeaderFields[@"Date"]];
+            }
+            
+            __strong BBGRequest * strongSelf = weakSelf;
+            
+            Class responseClass = [strongSelf responseClass];
+            if(![responseClass isSubclassOfClass:[BBGResponse class]]){
+                @throw [NSException exceptionWithName:@"类型错误" reason:@"responseClass必须为BBGResponse的子类" userInfo:nil];
+            }
+            BBGResponse * response = [[responseClass alloc] initWithData:responseObject format:strongSelf.responseFormat];
+#ifdef DEBUG
+            NSLog(@"response:%@",[response description]);
+#endif
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (success) {
+                    success(operation,response);
+                }
+            });
+        };
+        
+        self.failureBlock = ^(AFHTTPRequestOperation *operation,NSError * error) {
+            __strong BBGRequest * strongSelf = weakSelf;
+            
+            if (operation.response) {
+                [[BBGConfiguration sharedInstance] getTimeDifferenceWithServerTime:operation.response.allHeaderFields[@"Date"]];
+            }
+            
+            Class responseClass = [strongSelf responseClass];
+            if(![responseClass isSubclassOfClass:[BBGResponse class]]){
+                @throw [NSException exceptionWithName:@"类型错误" reason:@"responseClass必须为BBGResponse的子类" userInfo:nil];
+            }
+            if (operation.responseString) {
+                BBGResponse * response= [[responseClass alloc]initWithData:operation.responseData format:strongSelf.responseFormat];
+#ifdef DEBUG
+                NSLog(@"error:%ld",(long)response.errorCode);
+#endif
+                if (failure) {
+                    failure(operation,response.errorMsg,[NSString stringWithFormat:@"%ld",(long)response.errorCode]);
+                }
+            }else{
+#ifdef DEBUG
+                NSLog(@"连接错误：%@",error);
+#endif
+            }
+            strongSelf = nil;
+            /*!
+             *  @author Damon, 15-04-07 17:04:38
+             *
+             *  统一处理网络出错
+             */
+        };
+        
+        [super send];
+    }else if (self.method == BBGHttpMethodPost || self.method == BBGHttpUploadFile){
+        __weak BBGRequest * weakSelf = self;
+        
+        self.successBlock = ^(AFHTTPRequestOperation *operation, id responseObject) {
+#ifdef DEBUG
+            NSLog(@"请求是：%@",[weakSelf class]);
+#endif
+            
+            
+            //存储服务器时间
+            if (operation.response) {
+                [[BBGConfiguration sharedInstance] getTimeDifferenceWithServerTime:operation.response.allHeaderFields[@"Date"]];
+            }
+            
+            __strong BBGRequest * strongSelf = weakSelf;
+            if(!weakSelf){
+#ifdef DEBUG
+                NSLog(@"Request对象已释放,但回调正执行,请注意!");
+#endif
+                return ;
+            }
+            Class responseClass = [strongSelf responseClass];
+            if(![responseClass isSubclassOfClass:[BBGResponse class]]){
+                @throw [NSException exceptionWithName:@"类型错误" reason:@"responseClass必须为BBGResponse的子类" userInfo:nil];
+            }
+            NSDictionary * dic = responseObject;
+            BBGResponse * response = [[responseClass alloc] initWithData:[dic JSONData] format:strongSelf.responseFormat];
+#ifdef DEBUG
+            NSLog(@"response:%@",[response description]);
+#endif
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (response.isError) {
+                    if([response isKindOfClass:[BBGLoginResponse class]]){
+                        [BBGSession sharedInstance].response = response;
+                    }
+                    if(![NSString isBlankString:response.errorMsg]){
+                        if (!weakSelf.notReturnErrorMsg) {
+                            [[BBGLoadingTips sharedInstance]showTips:response.errorMsg];
+                        }
+                    }
+                    
+                    [NSString stringWithFormat:@"%ld",(long)response.errorCode];
+                    if (failure) {
+                        failure(operation,response.errorMsg,[NSString stringWithFormat:@"%ld",(long)response.errorCode]);
+                    }
+                }else{
+                    if (success) {
+                        success(operation,response);
+                    }
+                }
+            });
+            strongSelf = nil;
+        };
+        
+        self.failureBlock = ^(AFHTTPRequestOperation *operation,NSError * error) {
+            NSLog(@"请求是：%@",[weakSelf class]);
+            //存储服务器时间
+            if (operation.response) {
+                [[BBGConfiguration sharedInstance] getTimeDifferenceWithServerTime:operation.response.allHeaderFields[@"Date"]];
+            }
+            
+            if (operation.responseString.length > 0) {
+                /*!
+                 业务问题
+                 */
+#ifdef DEBUG
+                NSLog(@"%@",operation.responseString);
+#endif
+                
+                BBGResponse * response = [[BBGResponse alloc]initWithData:operation.responseData format:ResponseDataFormatJson];
+                if (failure) {
+                    if (response.errorMsg.length <100) {
+                        if (!weakSelf.notReturnErrorMsg) {
+                            [[BBGLoadingTips sharedInstance] showTips:response.errorMsg];
+                        }
+                    }
+                    failure(operation,response.errorMsg,[NSString stringWithFormat:@"%ld",(long)response.errorCode]);
+                }
+            }else{
+                /*!
+                 *  网络问题
+                 */
+                if (error) {
+                    if(error.code!=NSURLErrorCancelled){
+                        if (failure) {
+                            failure(nil,@"当前网络不佳，请重试",nil);
+                        }
+                        [[BBGLoadingTips sharedInstance] showTips:@"当前网络不佳，请重试"];
+                        
+                    }else{
+                        if (failure) {
+                            failure(nil,@"",nil);
+                        }
+                    }
+                }
+                
+#ifdef DEBUG
+                NSLog(@"连接错误：%@",error);
+#endif
+            }
+            
+            
+            /*!
+             *  @author Damon, 15-04-07 17:04:38
+             *
+             *  统一处理网络出错
+             */
+        };
+        
+        self.uploadDataBlock = uploadDataBlock;
+        
+        [super send];
+    }else{
+        @throw [NSException exceptionWithName:@"参数不正确" reason:@"HTTP方法不能为空" userInfo:nil];
+    }
+}
+
+- (void)sendWithSuccessBlock:(void (^)(AFHTTPRequestOperation *operation, BBGResponse * responseData))success failure:(void (^)(AFHTTPRequestOperation *operation, NSString * errorMsg, NSString * errorCode))failure{
+    
+    [self sendWithSuccessBlock:success failure:failure data:nil];
+
+}
+
+
+
+- (void)buildParameters:(BBGMutableParameters*)parameters {
+    
+    [super buildParameters:parameters];
+}
+
+- (Class)responseClass {
+    @throw [NSException exceptionWithName:@"方法错误" reason:@"必须实现抽象方法" userInfo:nil];
+}
+
+- (void)successWithOperation:(AFHTTPRequestOperation *)operation responseObject:(id)responseObject error:(NSError *)error{
+    
+}
+
+- (void)cancelRequest{    
+    [self.manager.operationQueue cancelAllOperations];
+}
+
+- (void)dealloc{
+    [self.manager.operationQueue cancelAllOperations];
+}
+@end

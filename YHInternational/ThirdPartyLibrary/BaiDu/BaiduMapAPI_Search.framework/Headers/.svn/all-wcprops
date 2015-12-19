@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers
+END
+BMKSearchBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKSearchBase.h
+END
+BMKShareUrlSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKShareUrlSearchOption.h
+END
+BMKPoiSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchOption.h
+END
+BMKSuggestionSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearchOption.h
+END
+BMKGeocodeType.h
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKGeocodeType.h
+END
+BMKShareURLSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKShareURLSearch.h
+END
+BMKSearchVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKSearchVersion.h
+END
+BMKRouteSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchOption.h
+END
+BMKPoiSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKPoiSearch.h
+END
+BMKSuggestionSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearch.h
+END
+BMKPoiSearchType.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchType.h
+END
+BMKBusLineSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearchOption.h
+END
+BMKRouteSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKRouteSearch.h
+END
+BMKGeocodeSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearchOption.h
+END
+BMKRouteSearchType.h
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchType.h
+END
+BMKBusLineSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearch.h
+END
+BMKSearchComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h
+END
+BMKGeocodeSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearch.h
+END

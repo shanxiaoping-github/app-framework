@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Location.framework/Headers
+END
+BMKLocationService.h
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Location.framework/Headers/BMKLocationService.h
+END
+BMKLocationComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Location.framework/Headers/BMKLocationComponent.h
+END
+BMKLocationVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/bbg-code/!svn/ver/49032/phone/IOS/YHInternational/trunk/YHInternational/ThirdPartyLibrary/BaiDu/BaiduMapAPI_Location.framework/Headers/BMKLocationVersion.h
+END

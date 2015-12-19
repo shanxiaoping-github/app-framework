@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/bbg-code/!svn/ver/49083/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network
+END
+BBGHTTPClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGHTTPClient.h
+END
+BBGResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGResponse.h
+END
+BBGHTTPClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/48567/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGHTTPClient.m
+END
+BBGCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGCache.h
+END
+BBGParameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGParameters.h
+END
+BBGResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGResponse.m
+END
+BBGResponseDataHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGResponseDataHandler.h
+END
+BBGRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGRequest.h
+END
+BBGResponseData.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGResponseData.h
+END
+BBGParameters.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGParameters.m
+END
+BBGCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGCache.m
+END
+BBGResponseDataHandler.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGResponseDataHandler.m
+END
+BBGRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bbg-code/!svn/ver/48863/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGRequest.m
+END
+BBGResponseData.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/bbg-code/!svn/ver/47036/phone/IOS/YHInternational/trunk/YHInternational/Common/Common/Network/BBGResponseData.m
+END

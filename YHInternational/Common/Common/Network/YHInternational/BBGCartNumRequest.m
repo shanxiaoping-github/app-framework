@@ -1,0 +1,36 @@
+//
+//  BBGCartNumRequest.m
+//  Common
+//
+//  Created by 彭腾 on 15/5/21.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGCartNumRequest.h"
+#import "BBGCartNumResponse.h"
+
+@implementation BBGCartNumRequest
+
+- (id)init{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    [parameters addParameter:BBGPLATFORM forKey:@"source"] ;
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return YES ;
+}
+
+- (Class)responseClass{
+    return [BBGCartNumResponse class];
+}
+
+@end

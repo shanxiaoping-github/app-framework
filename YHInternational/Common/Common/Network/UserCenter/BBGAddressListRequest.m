@@ -1,0 +1,38 @@
+//
+//  BBGAddressListRequest.m
+//  Common
+//
+//  Created by Timmy Ouyang on 15/4/27.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGAddressListRequest.h"
+#import "BBGAddressListResponse.h"
+
+@implementation BBGAddressListRequest
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+
+    [parameters addParameter:_memberId forKey:@"memberId"];
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+
+    return YES;
+}
+
+- (Class)responseClass{
+    return [BBGAddressListResponse class];
+}
+
+@end

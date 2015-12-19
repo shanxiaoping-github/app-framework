@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansHans-DemiLight.otf">
+            <string>NotoSansHans-DemiLight</string>
+            <string>NotoSansHans-DemiLight</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BBGReasonViewController_iPhone">
+            <connections>
+                <outlet property="cancelButton" destination="sw4-ta-cmw" id="CNc-It-QjM"/>
+                <outlet property="mainView" destination="0yc-f1-RfH" id="9L2-xS-90k"/>
+                <outlet property="reasonPickerView" destination="iKX-xV-Rxq" id="Pd5-UN-jzv"/>
+                <outlet property="sureButton" destination="RE8-dt-TxO" id="IDG-ZP-mOz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yc-f1-RfH">
+                    <rect key="frame" x="0.0" y="368" width="320" height="200"/>
+                    <subviews>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKX-xV-Rxq">
+                            <rect key="frame" x="0.0" y="38" width="320" height="162"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="162" id="CXC-8A-z4F"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="tll-Km-1vd"/>
+                                <outlet property="delegate" destination="-1" id="D6I-7Y-c2C"/>
+                            </connections>
+                        </pickerView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rJq-MU-TvL">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
+                            <color key="backgroundColor" red="0.82352941180000006" green="0.82352941180000006" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="38" id="73Q-sf-tMF"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw4-ta-cmw">
+                            <rect key="frame" x="10" y="4" width="73" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="73" id="7ET-QA-j8T"/>
+                                <constraint firstAttribute="height" constant="30" id="FPD-uc-Aua"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansHans-DemiLight" family="Noto Sans S Chinese" pointSize="15"/>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" red="0.52156865600000002" green="0.52156865600000002" blue="0.52156865600000002" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backgroundTapped:" destination="-1" eventType="touchUpInside" id="fJQ-Zb-JbS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RE8-dt-TxO">
+                            <rect key="frame" x="237" y="4" width="73" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="73" id="kMC-wb-HUV"/>
+                                <constraint firstAttribute="height" constant="30" id="wKc-t3-ZNg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansHans-DemiLight" family="Noto Sans S Chinese" pointSize="15"/>
+                            <state key="normal" title="确定">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="makesureAction:" destination="-1" eventType="touchUpInside" id="5iu-4K-RSm"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="RE8-dt-TxO" secondAttribute="trailing" constant="10" id="3xm-7b-Hwm"/>
+                        <constraint firstItem="iKX-xV-Rxq" firstAttribute="leading" secondItem="0yc-f1-RfH" secondAttribute="leading" id="A5N-ZL-ZjR"/>
+                        <constraint firstAttribute="trailing" secondItem="iKX-xV-Rxq" secondAttribute="trailing" id="BVO-hK-2DU"/>
+                        <constraint firstItem="sw4-ta-cmw" firstAttribute="leading" secondItem="0yc-f1-RfH" secondAttribute="leading" constant="10" id="C8t-s4-TAC"/>
+                        <constraint firstItem="rJq-MU-TvL" firstAttribute="leading" secondItem="0yc-f1-RfH" secondAttribute="leading" id="EFU-L6-Q3a"/>
+                        <constraint firstAttribute="height" constant="200" id="FjU-s2-tyD"/>
+                        <constraint firstItem="rJq-MU-TvL" firstAttribute="top" secondItem="0yc-f1-RfH" secondAttribute="top" id="I2y-VT-qBo"/>
+                        <constraint firstItem="iKX-xV-Rxq" firstAttribute="top" secondItem="rJq-MU-TvL" secondAttribute="bottom" id="Vy1-dm-f9r"/>
+                        <constraint firstItem="sw4-ta-cmw" firstAttribute="top" secondItem="0yc-f1-RfH" secondAttribute="top" constant="4" id="cew-YB-zz4"/>
+                        <constraint firstItem="iKX-xV-Rxq" firstAttribute="top" secondItem="rJq-MU-TvL" secondAttribute="bottom" id="eMf-LS-M1P"/>
+                        <constraint firstItem="iKX-xV-Rxq" firstAttribute="top" secondItem="RE8-dt-TxO" secondAttribute="bottom" constant="4" id="gdE-3b-0FP"/>
+                        <constraint firstAttribute="trailing" secondItem="rJq-MU-TvL" secondAttribute="trailing" id="lYM-R7-aTw"/>
+                        <constraint firstAttribute="bottom" secondItem="iKX-xV-Rxq" secondAttribute="bottom" id="nWY-fc-Ivm"/>
+                        <constraint firstItem="RE8-dt-TxO" firstAttribute="top" secondItem="0yc-f1-RfH" secondAttribute="top" constant="4" id="vR1-dD-Q3I"/>
+                        <constraint firstItem="iKX-xV-Rxq" firstAttribute="top" secondItem="sw4-ta-cmw" secondAttribute="bottom" constant="4" id="xgi-jJ-nmu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="0yc-f1-RfH" secondAttribute="bottom" id="JCM-m6-2oa"/>
+                <constraint firstItem="0yc-f1-RfH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VoK-NO-9xX"/>
+                <constraint firstAttribute="trailing" secondItem="0yc-f1-RfH" secondAttribute="trailing" id="ZHc-XN-BxH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="154"/>
+        </view>
+    </objects>
+</document>

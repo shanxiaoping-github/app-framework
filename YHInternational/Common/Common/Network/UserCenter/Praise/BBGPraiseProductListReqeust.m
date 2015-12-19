@@ -1,0 +1,41 @@
+//
+//  BBGPraiseProductListReqeust.m
+//  Common
+//
+//  Created by yangjie on 15/4/30.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGPraiseProductListReqeust.h"
+#import "BBGPraiseProductListResponse.h"
+
+@implementation BBGPraiseProductListReqeust
+
+
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+        _pageIndex = 1;
+        _pageSize = 20;
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters{
+    [parameters addParameter:[NSString stringWithFormat:@"%ld",(long)_pageIndex] forKey:@"pageIndex"];
+    [parameters addParameter:[NSString stringWithFormat:@"%ld",(long)_pageSize] forKey:@"pageSize"];
+    [super buildParameters:parameters];
+}
+
+
+- (BOOL)needAuthUser{
+    return YES;
+}
+
+- (Class)responseClass {
+    
+    return [BBGPraiseProductListResponse class];
+}
+
+@end

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansHans-Light.otf">
+            <string>NotoSansHans-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BBGBeautyEffectCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="50" translatesAutoresizingMaskIntoConstraints="NO" id="VaP-MW-m2F">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <fontDescription key="fontDescription" name="NotoSansHans-Light" family="Noto Sans S Chinese" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qwg-uf-6tA">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="click:" destination="gTV-IL-0wX" eventType="touchUpInside" id="4aW-DW-W3p"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Qwg-uf-6tA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9Vc-QS-DV0"/>
+                <constraint firstAttribute="bottom" secondItem="VaP-MW-m2F" secondAttribute="bottom" id="B8o-r4-qJN"/>
+                <constraint firstItem="VaP-MW-m2F" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Bu8-vD-36E"/>
+                <constraint firstAttribute="trailing" secondItem="VaP-MW-m2F" secondAttribute="trailing" id="EIo-sg-Jho"/>
+                <constraint firstAttribute="bottom" secondItem="Qwg-uf-6tA" secondAttribute="bottom" id="Vz1-t9-ySA"/>
+                <constraint firstItem="Qwg-uf-6tA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fkz-6c-45H"/>
+                <constraint firstAttribute="trailing" secondItem="Qwg-uf-6tA" secondAttribute="trailing" id="s9E-KL-p9X"/>
+                <constraint firstItem="VaP-MW-m2F" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xta-K0-hpl"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLab" destination="VaP-MW-m2F" id="M8G-2u-R3c"/>
+            </connections>
+            <point key="canvasLocation" x="123" y="158"/>
+        </collectionViewCell>
+    </objects>
+</document>

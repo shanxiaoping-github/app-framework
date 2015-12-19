@@ -1,0 +1,37 @@
+//
+//  BBGGoodsSeckillRequest.m
+//  Common
+//
+//  Created by 彭腾 on 15/10/20.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGGoodsSeckillRequest.h"
+#import "BBGGoodsSeckillResponse.h"
+#import "BBGSession.h"
+
+@implementation BBGGoodsSeckillRequest
+
+- (id)init {
+    self = [super init] ;
+    if (self) {
+        self.method = BBGHttpMethodPost;
+    }
+    return self ;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    [parameters addParameter:self.activityId forKey:@"activityId"];
+    [parameters addParameter:self.productId forKey:@"productId"];
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return [BBGSession sharedInstance].isLogin ;
+}
+
+- (Class)responseClass {
+    return [BBGGoodsSeckillResponse class];
+}
+
+@end

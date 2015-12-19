@@ -1,0 +1,35 @@
+//
+//  BBGOrderAgainPurchaseRequest.m
+//  Common
+//
+//  Created by elvis.peng on 15-5-19.
+//  Copyright (c) 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGOrderAgainPurchaseRequest.h"
+#import "BBGOrderAgainPurchaseResponse.h"
+@implementation BBGOrderAgainPurchaseRequest
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+        self.serviceName = @"bubugao.mobile.global.trade.cart.order.add";
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters{
+   
+    [parameters addParameter:_orderId forKey:@"orderId"];
+    
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return YES;
+}
+
+- (Class)responseClass{
+    return [BBGOrderAgainPurchaseResponse class];
+}
+@end

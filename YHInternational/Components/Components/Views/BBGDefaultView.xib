@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BBGDefaultView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="抱歉，没有找到相关商品..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76F-cr-6KZ">
+                    <rect key="frame" x="8" y="390" width="584" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="ngq-dG-ZuU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTb-eS-wSK">
+                    <rect key="frame" x="244" y="454" width="112" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="EPc-jA-BlJ"/>
+                        <constraint firstAttribute="width" constant="112" id="Myl-XJ-MmG"/>
+                    </constraints>
+                    <state key="normal" title="刷新">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoApproving_blank" translatesAutoresizingMaskIntoConstraints="NO" id="JqZ-OP-yeC">
+                    <rect key="frame" x="219" y="219" width="163" height="163"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="163" id="6z0-Dm-GEi"/>
+                        <constraint firstAttribute="height" constant="163" id="Nrg-1M-zgt"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.93725490196078431" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="FTb-eS-wSK" secondAttribute="centerX" id="0JN-ty-w87"/>
+                <constraint firstAttribute="centerY" secondItem="JqZ-OP-yeC" secondAttribute="centerY" id="3BT-a7-7xu"/>
+                <constraint firstAttribute="trailing" secondItem="76F-cr-6KZ" secondAttribute="trailing" constant="8" id="7vr-h1-Sff"/>
+                <constraint firstAttribute="centerX" secondItem="76F-cr-6KZ" secondAttribute="centerX" id="Ffz-d3-kwy"/>
+                <constraint firstAttribute="centerX" secondItem="JqZ-OP-yeC" secondAttribute="centerX" id="fzt-xA-Y5b"/>
+                <constraint firstItem="76F-cr-6KZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="oZi-oP-8jN"/>
+                <constraint firstItem="76F-cr-6KZ" firstAttribute="top" secondItem="JqZ-OP-yeC" secondAttribute="bottom" constant="8" id="tZn-Fg-9VU"/>
+                <constraint firstItem="FTb-eS-wSK" firstAttribute="top" secondItem="76F-cr-6KZ" secondAttribute="bottom" constant="8" id="uVw-zO-xAd"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Ffz-d3-kwy"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="NoApproving_blank" width="191" height="191"/>
+    </resources>
+</document>

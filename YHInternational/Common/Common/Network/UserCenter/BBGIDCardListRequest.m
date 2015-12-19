@@ -1,0 +1,34 @@
+//
+//  BBGIDCardListRequest.m
+//  Common
+//
+//  Created by holyjoy on 15/3/4.
+//  Copyright (c) 2015年 BuBuGao. All rights reserved.
+//
+
+#import "BBGIDCardListRequest.h"
+#import "BBGIDCardListResponse.h"
+
+@implementation BBGIDCardListRequest
+- (id)init {
+    self = [super init];
+    if (self) {
+        self.method = BBGHttpMethodPost;
+        
+    }
+    return self;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return YES;
+}
+
+- (Class)responseClass {
+    return [BBGIDCardListResponse class];
+}
+@end

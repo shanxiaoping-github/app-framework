@@ -1,0 +1,36 @@
+//
+//  BBGIndexUpdateIOSRequest.m
+//  Common
+//
+//  Created by yangjie on 15/10/24.
+//  Copyright © 2015年 Bubugao. All rights reserved.
+//
+
+#import "BBGIndexUpdateIOSRequest.h"
+#import "BBGIndexUpdateIOSResponse.h"
+
+@implementation BBGIndexUpdateIOSRequest
+
+
+- (id)init {
+    self = [super init] ;
+    if (self) {
+        self.method = BBGHttpMethodPost;
+        self.serviceName = @"bubugao.mobile.global.index.updateios.version.get";
+    }
+    return self ;
+}
+
+- (void)buildParameters:(BBGMutableParameters *)parameters {
+    [super buildParameters:parameters];
+}
+
+- (BOOL)needAuthUser {
+    return NO ;
+}
+
+- (Class)responseClass {
+    return [BBGIndexUpdateIOSResponse class];
+}
+
+@end
