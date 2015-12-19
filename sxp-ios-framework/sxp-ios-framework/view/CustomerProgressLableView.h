@@ -28,6 +28,9 @@
 //跟随标签颜色
 @property(nonatomic,strong)UIColor* flowlabelColor;
 @property(nonatomic,strong)UIFont* flowlabelFont;
+//是否为百分率
+@property(nonatomic,assign)BOOL isRate;
 //绘制进度
 -(void)drawProgress;
+
 @end

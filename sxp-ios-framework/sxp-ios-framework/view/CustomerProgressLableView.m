@@ -8,9 +8,10 @@
 
 #import "CustomerProgressLableView.h"
 #import "StringUtil.h"
-#import "Fonts.h"
 @interface CustomerProgressLableView(){
     BOOL isInitDefault;
+    
+    UIView* backgroundView;
 }
 @end
 @implementation CustomerProgressLableView
@@ -25,6 +26,7 @@
 @synthesize leftlabelFont = _leftlabelFont;
 @synthesize flowlabelColor = _flowlabelColor;
 @synthesize flowlabelFont = _flowlabelFont;
+@synthesize isRate =_isRate;
 - (instancetype)init{
     self = [super init];
     if (self) {
@@ -50,46 +52,58 @@
         isInitDefault = YES;
     }
     self.radian = 0;
-    self.backgoundCustomerColor = [UIColor whiteColor];
-    self.progressColor = [UIColor blueColor];
+    self.backgoundCustomerColor = [UIColor clearColor];
+    self.progressColor = progress_color;
     self.progressValue = 50.f;
     self.maxValue = 100.f;
     
     self.leftlabelStr = @"";
     self.leftlabelColor = [UIColor whiteColor];
-    self.leftlabelFont = normal_font;
+    self.leftlabelFont = a_few_font;
     
-    self.flowlabelStr = [NSString stringWithFormat:@"%lf",_progressValue];
+    self.flowlabelStr = [NSString stringWithFormat:@"%.2lf",_progressValue];
     self.flowlabelColor = [UIColor whiteColor];
-    self.flowlabelFont = normal_font;
+    self.flowlabelFont = a_few_font;
+    
+    backgroundView = [[UIView alloc] initWithFrame:CGRectMake(10, 0, mainScreenWidth-2*10, self.bounds.size.height)];
+    backgroundView.backgroundColor = [UIColor whiteColor];
+    [self addSubview:backgroundView];
 }
 -(void)drawProgress{
-        self.backgroundColor = _backgoundCustomerColor;
-        self.layer.cornerRadius = _radian;
-        self.clipsToBounds = YES;
+    self.backgroundColor = _backgoundCustomerColor;
+    self.layer.cornerRadius = _radian;
+    self.clipsToBounds = YES;
     
-        CGSize viewSize = self.bounds.size;
-        CGFloat progeressWidth = (_progressValue/_maxValue)*viewSize.width;
-        UIView* progeressView = [[UIView alloc]initWithFrame:CGRectMake(0.f, 0.f,progeressWidth,viewSize.height+10)];
-        progeressView.backgroundColor = _progressColor;
-        progeressView.layer.cornerRadius = _radian;
-        [self addSubview:progeressView];
+    CGFloat leftLabelWidth = [StringUtil getStringWidth:_leftlabelStr font:_leftlabelFont size:backgroundView.frame.size];
+    CGSize viewSize = CGSizeMake(backgroundView.frame.size.width-(leftLabelWidth+10), backgroundView.frame.size.height);
+    CGFloat progeressWidth = MAX((_progressValue/_maxValue)*viewSize.width, 80);
+    UIView* progeressView = [[UIView alloc]initWithFrame:CGRectMake(leftLabelWidth+10, 0.f,progeressWidth,viewSize.height)];
+    progeressView.backgroundColor = _progressColor;
+    progeressView.layer.cornerRadius = _radian;
+    [backgroundView addSubview:progeressView];
     
-        CGFloat leftLabelHeight = [StringUtil getStringHeight:_leftlabelStr font:_leftlabelFont size:viewSize];
-        CGFloat leftLabelWidth = [StringUtil getStringWidth:_leftlabelStr font:_leftlabelFont size:viewSize];
-        UILabel* leftLabel = [[UILabel alloc]initWithFrame:CGRectMake(10.f, (viewSize.height-leftLabelHeight)/2,leftLabelWidth, leftLabelHeight)];
-        leftLabel.font = _leftlabelFont;
-        leftLabel.textColor = _leftlabelColor;
-        leftLabel.text  = _leftlabelStr;
-        [self addSubview:leftLabel];
+    UIView* leftView = [[UIView alloc]initWithFrame:CGRectMake(0.f, 0,(NSInteger)leftLabelWidth+11, viewSize.height)];
+    leftView.backgroundColor = _progressColor;
+    [backgroundView addSubview:leftView];
     
-        CGFloat flowLabelHeight = [StringUtil getStringHeight:_flowlabelStr font:_flowlabelFont size:viewSize];
-        CGFloat flowLabelWidth = [StringUtil getStringWidth:_flowlabelStr font:_flowlabelFont size:viewSize];
-        UILabel* flowLabel = [[UILabel alloc]initWithFrame:CGRectMake(progeressWidth - flowLabelWidth, (viewSize.height-flowLabelHeight)/2,flowLabelWidth, flowLabelHeight)];
-        flowLabel.font = _flowlabelFont;
-        flowLabel.textColor = _flowlabelColor;
-        self.flowlabelStr = [NSString stringWithFormat:@"%lf",_progressValue];
-        flowLabel.text  = _flowlabelStr;
-        [self addSubview:flowLabel];
+    UILabel* leftLabel = [[UILabel alloc]initWithFrame:CGRectMake(10.f, 0,leftView.frame.size.width-10, leftView.frame.size.height)];
+    leftLabel.backgroundColor = _progressColor;
+    leftLabel.font = _leftlabelFont;
+    leftLabel.textColor = _leftlabelColor;
+    leftLabel.text  = _leftlabelStr;
+    [leftView addSubview:leftLabel];
+    if (_isRate) {
+        self.flowlabelStr = [NSString stringWithFormat:@"%.4f%%",_progressValue*100];
+    }else{
+        self.flowlabelStr = [NSString stringWithFormat:@"%.4lf",_progressValue];
+    }
+    
+    UILabel* flowLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0,progeressView.frame.size.width-10, progeressView.frame.size.height)];
+    flowLabel.adjustsFontSizeToFitWidth = YES;
+    flowLabel.textAlignment = NSTextAlignmentRight;
+    flowLabel.font = _flowlabelFont;
+    flowLabel.textColor = _flowlabelColor;
+    flowLabel.text  = _flowlabelStr;
+    [progeressView addSubview:flowLabel];
 }
 @end
