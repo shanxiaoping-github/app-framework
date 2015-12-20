@@ -12,7 +12,7 @@
 @synthesize finishCount=_finishCount;
 @synthesize completeTransactionOperation=_completeTransactionOperation;
 //添加请求事件
--(void)addHttpRequestEvent:(HttpRequestEvent *)httpRequestEvent{
+-(void)addHttpRequestEvent:(HttpRequest *)httpRequestEvent{
     if (!_httpEventArray) {
         self.httpEventArray = [[NSMutableArray alloc]init];
     }
@@ -22,7 +22,7 @@
 //启动执行事务
 -(void)performHttpTransaction{
     if (_httpEventArray) {
-        for (HttpRequestEvent* httpRequestEvent in _httpEventArray) {
+        for (HttpRequest* httpRequestEvent in _httpEventArray) {
             [httpRequestEvent submitRequest];
         }
     }

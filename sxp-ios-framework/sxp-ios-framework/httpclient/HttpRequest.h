@@ -12,7 +12,7 @@
 #import "HttpConfiguration.h"
 #import "HttpResponse.h"
 @class HttpRequestTransaction;
-@interface HttpRequestEvent : NSObject
+@interface HttpRequest : NSObject
 //所属http事务
 @property(nonatomic,weak)HttpRequestTransaction* belongHttpRequestTransaction;
 //依赖的请求事件
@@ -37,7 +37,7 @@
 //对参数进行过滤
 -(NSDictionary*)filterParamers:(NSDictionary*)parames;
 //添加下一个http请求
--(void)addNextHttpRequestEvent:(HttpRequestEvent*)httpRequestEvent;
+-(void)addNextHttpRequestEvent:(HttpRequest*)httpRequestEvent;
 //解析数据
 -(void)parseResponse:(NSString*)resultType result:(NSString*)result response:(id)response;
 //提交请求

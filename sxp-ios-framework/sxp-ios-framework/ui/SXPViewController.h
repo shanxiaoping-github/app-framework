@@ -9,12 +9,16 @@
 /*基本UIviewController*/
 #import <UIKit/UIKit.h>
 @interface SXPViewController : UIViewController
-//显示菊花条位置默认位置，一般为屏幕中央
+/*菊花圆圈*/
 -(void)showIndicatorView;
-//显示菊花条指定位置
 -(void)showIndicatorViewPointX:(CGFloat)x pointY:(CGFloat)y;
-//隐藏菊花条
 -(void)stopIndicatorView;
-//导航栏颜色,子类重写
+
+/*提示*/
+-(void)showMessage:(NSString*)message;
+-(void)showLoadDialog:(NSString*)message;
+-(void)stopLoadDialog;
+
+/*导航栏颜色,子类重写*/
 -(UIColor*)navigationColor;
 @end

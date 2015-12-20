@@ -16,7 +16,7 @@
 		5C302BDF1B57633900E91B3D /* SXPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C302BDE1B57633900E91B3D /* SXPAppDelegate.m */; };
 		5C3F2D9A1B550B930008E289 /* libsxp-ios-framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3F2D8E1B550B930008E289 /* libsxp-ios-framework.a */; };
 		5C52AA4F1C257BA7000C20EF /* HttpConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA3E1C257BA7000C20EF /* HttpConfiguration.m */; };
-		5C52AA501C257BA7000C20EF /* HttpRequestEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA401C257BA7000C20EF /* HttpRequestEvent.m */; };
+		5C52AA501C257BA7000C20EF /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA401C257BA7000C20EF /* HttpRequest.m */; };
 		5C52AA511C257BA7000C20EF /* HttpRequestTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA421C257BA7000C20EF /* HttpRequestTransaction.m */; };
 		5C52AA521C257BA7000C20EF /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA441C257BA7000C20EF /* HttpResponse.m */; };
 		5C52AA531C257BA7000C20EF /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA461C257BA7000C20EF /* HttpUtil.m */; };
@@ -38,6 +38,7 @@
 		5C52AA8B1C257E6C000C20EF /* StringUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA7E1C257E6C000C20EF /* StringUtil.mm */; };
 		5C52AA8C1C257E6D000C20EF /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA801C257E6C000C20EF /* TimeUtil.m */; };
 		5C52AA8D1C257E6D000C20EF /* ViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA821C257E6C000C20EF /* ViewUtil.m */; };
+		5C52AAAC1C259CF4000C20EF /* libMJExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCAEC331BE8B8770053CDDA /* libMJExtension.a */; };
 		5CCAEC201BE8AA2A0053CDDA /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCAEC171BE8A87A0053CDDA /* libAFNetworking.a */; };
 		EF2FBF6250D50E1D173EE375 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 978831838C1646E77D26A176 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5C3F2D8D1B550B930008E289;
 			remoteInfo = "sxp-ios-framework";
+		};
+		5C52AAAA1C259CE8000C20EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B23B3D15FFC0FC9893968F478086D58D;
+			remoteInfo = MJExtension;
 		};
 		5CCAEC161BE8A87A0053CDDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -123,8 +131,8 @@
 		5C4CF6401BEA09F600AF7F8A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		5C52AA3D1C257BA7000C20EF /* HttpConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConfiguration.h; sourceTree = "<group>"; };
 		5C52AA3E1C257BA7000C20EF /* HttpConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpConfiguration.m; sourceTree = "<group>"; };
-		5C52AA3F1C257BA7000C20EF /* HttpRequestEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestEvent.h; sourceTree = "<group>"; };
-		5C52AA401C257BA7000C20EF /* HttpRequestEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestEvent.m; sourceTree = "<group>"; };
+		5C52AA3F1C257BA7000C20EF /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		5C52AA401C257BA7000C20EF /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
 		5C52AA411C257BA7000C20EF /* HttpRequestTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestTransaction.h; sourceTree = "<group>"; };
 		5C52AA421C257BA7000C20EF /* HttpRequestTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestTransaction.m; sourceTree = "<group>"; };
 		5C52AA431C257BA7000C20EF /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpResponse.h; sourceTree = "<group>"; };
@@ -180,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C52AAAC1C259CF4000C20EF /* libMJExtension.a in Frameworks */,
 				5CCAEC201BE8AA2A0053CDDA /* libAFNetworking.a in Frameworks */,
 				EF2FBF6250D50E1D173EE375 /* libPods.a in Frameworks */,
 			);
@@ -320,8 +329,8 @@
 			children = (
 				5C52AA3D1C257BA7000C20EF /* HttpConfiguration.h */,
 				5C52AA3E1C257BA7000C20EF /* HttpConfiguration.m */,
-				5C52AA3F1C257BA7000C20EF /* HttpRequestEvent.h */,
-				5C52AA401C257BA7000C20EF /* HttpRequestEvent.m */,
+				5C52AA3F1C257BA7000C20EF /* HttpRequest.h */,
+				5C52AA401C257BA7000C20EF /* HttpRequest.m */,
 				5C52AA411C257BA7000C20EF /* HttpRequestTransaction.h */,
 				5C52AA421C257BA7000C20EF /* HttpRequestTransaction.m */,
 				5C52AA431C257BA7000C20EF /* HttpResponse.h */,
@@ -437,6 +446,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5C52AAAB1C259CE8000C20EF /* PBXTargetDependency */,
 				5CCAEC241BE8AA360053CDDA /* PBXTargetDependency */,
 				5CCAEC221BE8AA310053CDDA /* PBXTargetDependency */,
 			);
@@ -579,7 +589,7 @@
 				5C52AA641C257E34000C20EF /* CustomerFontLabel.m in Sources */,
 				5C302BCF1B56660100E91B3D /* SXPViewController.m in Sources */,
 				5C52AA8C1C257E6D000C20EF /* TimeUtil.m in Sources */,
-				5C52AA501C257BA7000C20EF /* HttpRequestEvent.m in Sources */,
+				5C52AA501C257BA7000C20EF /* HttpRequest.m in Sources */,
 				5C52AA841C257E6C000C20EF /* DeviceUtil.mm in Sources */,
 				5C52AA881C257E6C000C20EF /* NetworkUtil.m in Sources */,
 				5C52AA541C257BA7000C20EF /* JsonFactory.m in Sources */,
@@ -623,6 +633,11 @@
 			isa = PBXTargetDependency;
 			target = 5C3F2D8D1B550B930008E289 /* sxp-ios-framework */;
 			targetProxy = 5C3F2D9B1B550B930008E289 /* PBXContainerItemProxy */;
+		};
+		5C52AAAB1C259CE8000C20EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			targetProxy = 5C52AAAA1C259CE8000C20EF /* PBXContainerItemProxy */;
 		};
 		5CCAEC221BE8AA310053CDDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

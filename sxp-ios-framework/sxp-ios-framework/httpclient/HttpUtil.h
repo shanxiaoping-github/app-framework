@@ -8,8 +8,8 @@
 #import <Foundation/Foundation.h>
 #import "AFHTTPRequestOperationManager.h"
 typedef NS_ENUM(NSInteger,HttpRequestType){
-    HttpRequestTypeGet = 1<<0,
-    HttpRequestTypePost= 1<<1
+    HttpRequestTypeGet  = 1 << 0,
+    HttpRequestTypePost = 1 << 1
 };
 @interface HttpUtil : NSObject
 /*

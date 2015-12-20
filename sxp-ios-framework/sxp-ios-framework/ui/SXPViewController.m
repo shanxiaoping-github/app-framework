@@ -8,27 +8,22 @@
 
 #import "SXPViewController.h"
 #import "appliacation_attribute.h"
-
+#import "MBProgressHUDManager.h"
 @interface SXPViewController (){
     UIActivityIndicatorView* activityIndicator;
+    MBProgressHUD* hud;
+    
 }
-
 @end
-
 @implementation SXPViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationController.navigationBar setBarTintColor:[self navigationColor]];
+    self.navigationController.navigationBar.translucent = NO;
+    //[self.navigationController.navigationBar setBarTintColor:[self navigationColor]];
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,nil]];      // Do any additional setup after loading the view.
 }
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+/*菊花圆圈*/
 -(void)showIndicatorView{
     [self showIndicatorViewPointX:screenWidth/2 pointY:screenHeight/2];
 }
@@ -42,14 +37,30 @@
     [self.view addSubview:activityIndicator];
     [activityIndicator startAnimating];
 }
-
 -(void)stopIndicatorView{
     if (activityIndicator){
         [activityIndicator stopAnimating];
         [activityIndicator setHidesWhenStopped:YES];
     }
 }
+
+/*提示message*/
+-(void)showMessage:(NSString *)message{
+    [MBProgressHUDManager showMessage:message view:self.view];
+}
+-(void)showLoadDialog:(NSString *)message{
+    hud = [MBProgressHUDManager showLoad:message view:self.view];
+}
+-(void)stopLoadDialog{
+    if (hud) {
+        hud.hidden = YES;
+    }
+}
+
 -(UIColor*)navigationColor{
     return [UIColor greenColor];
+}
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return  UIStatusBarStyleLightContent;
 }
 @end

@@ -6,7 +6,7 @@
 //  http事务
 
 #import <Foundation/Foundation.h>
-#import "HttpRequestEvent.h"
+#import "HttpRequest.h"
 @interface HttpRequestTransaction : NSObject
 //事务请求事件集合
 @property(nonatomic,strong)NSMutableArray* httpEventArray;
@@ -15,7 +15,7 @@
 //完成事务操作
 @property(nonatomic,assign)void(^completeTransactionOperation)(NSArray* httpEventArray);
 //添加请求事件
--(void)addHttpRequestEvent:(HttpRequestEvent*)httpRequestEvent;
+-(void)addHttpRequestEvent:(HttpRequest*)httpRequestEvent;
 //执行http事务
 -(void)performHttpTransaction;
 //计数事务

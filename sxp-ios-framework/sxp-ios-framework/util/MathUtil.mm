@@ -69,22 +69,54 @@
 	NSDecimalNumber *product = [multiplicandNumber decimalNumberByMultiplyingBy:multiplierNumber];
 	return [product stringValue];
 }
++(NSString *)decimalNumberMutiplyWithStringKeepDigit:(NSString *)multiplierValue value2:(NSString *)multiplicandValue keepCount:(short)keepCount{
+    NSDecimalNumber *multiplierNumber = [NSDecimalNumber decimalNumberWithString:multiplierValue];
+    NSDecimalNumber *multiplicandNumber = [NSDecimalNumber decimalNumberWithString:multiplicandValue];
+    NSDecimalNumberHandler* roundingBehavior = [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundDown scale:keepCount raiseOnExactness:NO raiseOnOverflow:NO raiseOnUnderflow:NO raiseOnDivideByZero:YES];
+    NSDecimalNumber *product = [multiplierNumber decimalNumberByMultiplyingBy:multiplicandNumber withBehavior:roundingBehavior];
+    return [product stringValue];
+}
+
 +(NSString*)decimalNumberDividingWithString:(NSString*)divtiplierValue value2:(NSString*)divtiplicandValue{
 	NSDecimalNumber *divtiplierNumber = [NSDecimalNumber decimalNumberWithString:divtiplierValue];
 	NSDecimalNumber *divtiplicandNumber = [NSDecimalNumber decimalNumberWithString:divtiplicandValue];
 	NSDecimalNumber *product = [divtiplierNumber decimalNumberByDividingBy:divtiplicandNumber];
 	return [product stringValue];
 }
++(NSString *)decimalNumberDividingWithStringKeepDigit:(NSString *)divtiplierValue value2:(NSString *)divtiplicandValue keepCount:(short)keepCount{
+    NSDecimalNumber *divtiplierNumber = [NSDecimalNumber decimalNumberWithString:divtiplierValue];
+    NSDecimalNumber *divtiplicandNumber = [NSDecimalNumber decimalNumberWithString:divtiplicandValue];
+    NSDecimalNumberHandler* roundingBehavior = [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundDown scale:keepCount raiseOnExactness:NO raiseOnOverflow:NO raiseOnUnderflow:NO raiseOnDivideByZero:YES];
+    NSDecimalNumber *product = [divtiplierNumber decimalNumberByDividingBy:divtiplicandNumber withBehavior:roundingBehavior];
+    return [product stringValue];
+}
+
 +(NSString *)decimalNumberAddWithString:(NSString *)addtiplierValue value2:(NSString *)addtiplicandValue{
     NSDecimalNumber *addtiplierNumber = [NSDecimalNumber decimalNumberWithString:addtiplierValue];
     NSDecimalNumber *addtiplicandNumber = [NSDecimalNumber decimalNumberWithString:addtiplicandValue];
     NSDecimalNumber *product = [addtiplierNumber decimalNumberByDividingBy:addtiplicandNumber];
     return [product stringValue];
 }
++(NSString *)decimalNumberAddWithStringKeepDigit:(NSString *)addtiplierValue value2:(NSString *)addtiplicandValue keepCount:(short)keepCount{
+    NSDecimalNumber *addtiplierNumber = [NSDecimalNumber decimalNumberWithString:addtiplierValue];
+    NSDecimalNumber *addtiplicandNumber = [NSDecimalNumber decimalNumberWithString:addtiplicandValue];
+    NSDecimalNumberHandler* roundingBehavior = [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundDown scale:keepCount raiseOnExactness:NO raiseOnOverflow:NO raiseOnUnderflow:NO raiseOnDivideByZero:YES];
+    NSDecimalNumber *product = [addtiplierNumber decimalNumberByDividingBy:addtiplicandNumber withBehavior:roundingBehavior];
+    return [product stringValue];
+
+}
+
 +(NSString *)decimalNumberSubWithString:(NSString *)subtiplierValue value2:(NSString *)subtiplicandValue{
     NSDecimalNumber *subtiplierNumber = [NSDecimalNumber decimalNumberWithString:subtiplierValue];
     NSDecimalNumber *subtiplicandNumber = [NSDecimalNumber decimalNumberWithString:subtiplicandValue];
     NSDecimalNumber *product = [subtiplierNumber decimalNumberBySubtracting:subtiplicandNumber];
+    return [product stringValue];
+}
++(NSString *)decimalNumberSubWithStringKeepDigit:(NSString *)subtiplierValue value2:(NSString *)subtiplicandValue keepCount:(short)keepCount{
+    NSDecimalNumber *subtiplierNumber = [NSDecimalNumber decimalNumberWithString:subtiplierValue];
+    NSDecimalNumber *subtiplicandNumber = [NSDecimalNumber decimalNumberWithString:subtiplicandValue];
+    NSDecimalNumberHandler* roundingBehavior = [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundDown scale:keepCount raiseOnExactness:NO raiseOnOverflow:NO raiseOnUnderflow:NO raiseOnDivideByZero:YES];
+    NSDecimalNumber *product = [subtiplierNumber decimalNumberBySubtracting:subtiplicandNumber withBehavior:roundingBehavior];
     return [product stringValue];
 }
 @end

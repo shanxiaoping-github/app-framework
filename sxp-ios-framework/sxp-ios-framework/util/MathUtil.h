@@ -15,16 +15,24 @@
 +(NSNumber*)stringToNumber:(NSString*)str;
 /*判断是否是数字*/
 +(BOOL)isNumber:(NSString *)str lastNumber:(NSInteger)lastNumber;
-//获取字典每个下标的对象
+/*获取字典每个下标的对象*/
 +(id)getObjectForNSDictionary:(NSDictionary*)dic index:(NSInteger)index;
-//获取字典每个下标的key
+/*获取字典每个下标的key*/
 +(NSString*)getKeyForNSDictionary:(NSDictionary*)dic index:(NSInteger)index;
-//大数相乘
+
+/*大数相乘*/
 +(NSString*)decimalNumberMutiplyWithString:(NSString*)multiplierValue value2:(NSString*)multiplicandValue;
-//大数相除
++(NSString*)decimalNumberMutiplyWithStringKeepDigit:(NSString*)multiplierValue value2:(NSString*)multiplicandValue keepCount:(short)keepCount;
+
+/*大数相除*/
 +(NSString*)decimalNumberDividingWithString:(NSString*)divtiplierValue value2:(NSString*)divtiplicandValue;
-//大数相加
++(NSString*)decimalNumberDividingWithStringKeepDigit:(NSString*)divtiplierValue value2:(NSString*)divtiplicandValue keepCount:(short)keepCount;
+
+/*大数相加*/
 +(NSString*)decimalNumberAddWithString:(NSString*)addtiplierValue value2:(NSString*)addtiplicandValue;
-//大数相减
++(NSString*)decimalNumberAddWithStringKeepDigit:(NSString*)addtiplierValue value2:(NSString*)addtiplicandValue keepCount:(short)keepCount;
+
+/*大数相减*/
 +(NSString*)decimalNumberSubWithString:(NSString*)subtiplierValue value2:(NSString*)subtiplicandValue;
++(NSString*)decimalNumberSubWithStringKeepDigit:(NSString*)subtiplierValue value2:(NSString*)subtiplicandValue keepCount:(short)keepCount;
 @end

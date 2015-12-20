@@ -14,10 +14,9 @@
 
     AFHTTPRequestOperationManager *afhManager =
     [AFHTTPRequestOperationManager manager];
-    //申明返回的结果是json类型
-    afhManager.responseSerializer = [AFJSONResponseSerializer serializer];
-    //申明请求的数据是json类型
-    afhManager.requestSerializer=[AFJSONRequestSerializer serializer];
+    NSMutableSet *contentTypes = [[NSMutableSet alloc] initWithSet:afhManager.responseSerializer.acceptableContentTypes];
+    [contentTypes addObject:@"text/html"];
+    afhManager.responseSerializer.acceptableContentTypes = contentTypes;
     switch (httpRequestType) {
         case HttpRequestTypeGet:{
             [afhManager GET:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
@@ -25,7 +24,7 @@
                     NSLog(@"返回数据-%@",responseObject);
                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
                     faile(operation,error);
-                     NSLog(@"返回错误-%@",error);
+                    NSLog(@"返回错误-%@",error);
                 }];
             }
             break;

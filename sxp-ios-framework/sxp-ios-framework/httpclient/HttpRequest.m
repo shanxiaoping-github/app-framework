@@ -6,10 +6,10 @@
 //  Copyright © 2015年 wsc. All rights reserved.
 //
 
-#import "HttpRequestEvent.h"
+#import "HttpRequest.h"
 #import "HttpUtil.h"
 #import "HttpRequestTransaction.h"
-@implementation HttpRequestEvent
+@implementation HttpRequest
 @synthesize belongHttpRequestTransaction=_belongHttpRequestTransaction;
 @synthesize dependentHttpRequestEvent=_dependentHttpRequestEvent;
 @synthesize nextHttpRequestEventArray=_nextHttpRequestEventArray;
@@ -71,7 +71,7 @@
 	}else if(self.url){
 		return self.url;
 	}else{
-		return [HttpRequestEvent getBaseUrl];
+		return [HttpRequest getBaseUrl];
 	}
 }
 -(NSString*)getAction{
@@ -81,7 +81,7 @@
 	}else if(self.action){
 		return self.action;
 	}else{
-		return [HttpRequestEvent getBaseAction];
+		return [HttpRequest getBaseAction];
 	}
 }
 
@@ -89,12 +89,12 @@
 	*添加next http请求
 	*httpRequestEvent 请求事件
 	*/
--(void)addNextHttpRequestEvent:(HttpRequestEvent *)httpRequestEvent{
+-(void)addNextHttpRequestEvent:(HttpRequest *)httpRequestEvent{
 	if (!_nextHttpRequestEventArray) {
 		self.nextHttpRequestEventArray = [[NSMutableArray alloc]init];
 	}
 	for(int i = 0;i < _nextHttpRequestEventArray.count;i++){
-		HttpRequestEvent* httpRequest = _nextHttpRequestEventArray[i];
+		HttpRequest* httpRequest = _nextHttpRequestEventArray[i];
 		NSString* orginUrl = [NSString stringWithFormat:@"%@%@",[httpRequest getUrl],[httpRequest getAction]];
 		NSString* cuUrl = [NSString stringWithFormat:@"%@%@",[httpRequestEvent getUrl],[httpRequestEvent getAction]];
 		if(orginUrl&&cuUrl&&[orginUrl isEqualToString:cuUrl]){
@@ -107,7 +107,7 @@
 //执行下一个http请求
 -(void)performNextHttpRequestEvent{
 	if (_nextHttpRequestEventArray) {
-		for (HttpRequestEvent* httpRequestEvent in _nextHttpRequestEventArray) {
+		for (HttpRequest* httpRequestEvent in _nextHttpRequestEventArray) {
 			[httpRequestEvent submitSubRequest:self];
 		}
 	}

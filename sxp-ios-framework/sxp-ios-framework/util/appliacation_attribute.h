@@ -18,4 +18,12 @@
 //取得storyboard指定控制器
 #define storyboard_controller_identity(storyName,controllerIdentity) \
 [[UIStoryboard storyboardWithName:storyName bundle:nil] instantiateViewControllerWithIdentifier:controllerIdentity]
+/*状态栏正常高度*/
+#define statusBarNomalHeight 20.f
+/*状态栏放大高度，一般是通知来临的高度放大*/
+#define statusBarScaleBigHeight 40.f
+/*屏幕水平高度*/
+#define navigationBarHorizontalHeight 44.f
+/*屏幕垂直高度*/
+#define navigationBarVerticalHeight 32.f
 #endif

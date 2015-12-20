@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 @interface RuntimeContext : NSObject
-+(instancetype)getInstane;
++(instancetype)shareInstance;
+
 -(void)putData:(id)value forkey:(NSString*)key;
 -(id)getData:(NSString*)key;
+-(void)putClassData:(id)value forkey:(Class)keyClass;
+-(id)getClasstData:(Class)keyClass;
+
 -(void)putConfiguration:(NSString*)value forkey:(NSString*)key;
 -(NSString*)getConfiguration:(NSString*)key;
 @end

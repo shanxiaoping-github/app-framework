@@ -26,7 +26,7 @@
 +(MBProgressHUD*)showLoad:(NSString *)loadMessage view:(UIView *)uiView{
     MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithView:uiView];
     [uiView addSubview:HUD];
-    HUD.labelText=loadMessage;
+    HUD.labelText = loadMessage;
     HUD.dimBackground = YES;
     [HUD showWhileExecuting:nil onTarget:nil withObject:nil animated:YES isAutoHide:NO];
     return HUD;

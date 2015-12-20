@@ -26,7 +26,6 @@
     NSDictionary *item = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableLeaves error:nil];
     return item;
 }
-
 +(id)creatJsonDataItemByStr:(NSString *)jsonStr class:(Class)className{
     NSDictionary* item = [JsonFactory creatJsonDataItem:jsonStr];
     return [JsonFactory creatJsonDataItemByDic:item class:className];
@@ -34,6 +33,4 @@
 +(id)creatJsonDataItemByDic:(NSDictionary *)jsonItem class:(Class)className{
     return [className objectWithKeyValues:jsonItem];
 }
-
-
 @end
