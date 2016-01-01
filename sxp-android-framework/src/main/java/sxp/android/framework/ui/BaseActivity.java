@@ -2,11 +2,13 @@ package sxp.android.framework.ui;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;
+
 import sxp.android.framework.annotation.ID;
 import sxp.android.framework.annotation.LAYOUT;
 import sxp.android.framework.annotation.RESOURE;
 import sxp.android.framework.interfaces.LastActivityListener;
 import sxp.android.framework.manager.ActivityManager;
+import sxp.android.framework.util.LogUtil;
 import sxp.android.framework.util.StringUtil;
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,6 +38,7 @@ public class BaseActivity extends FragmentActivity implements OnClickListener,La
 	protected void onCreate(Bundle savedInstanceState){
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+		LogUtil.logActivityStart(this);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setSoftInputMode(
 				WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
@@ -49,30 +52,39 @@ public class BaseActivity extends FragmentActivity implements OnClickListener,La
 		layoutContentView();
 		// 初始化空间，注解方式
 		initComponent();
-		// 对ui进行模板布局,以及一些ui的界面初始化化，不包含数据
-		layout();
-
-		// 没有保存数据和重建的情况下
-		if (savedInstanceState == null) {
-			dataInit();
+		//没有保存数据和重建的情况下
+		if (null == savedInstanceState) {
+			initData();
 		} else {
 			// 数据恢复
-			dataRestore(savedInstanceState);
+			restoreData(savedInstanceState);
 		}
-		eventDispose();
+		//对ui进行模板布局,以及一些ui的界面初始化化，不包含数据
+		layout();
+		//事件操作
+		event();
 		
 	}
 
 	/**
-	 * 数据恢复
+	 * 恢复数据
 	 */
-	protected void dataRestore(Bundle savedInstanceState){}
+	protected void restoreData(Bundle savedInstanceState){}
+	/**
+	 * 保存数据
+	 */
+	protected void savaData(Bundle savedInstanceState){};
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		// TODO Auto-generated method stub
+		super.onSaveInstanceState(outState);
+		savaData(outState);
+	}
 
 	/**
 	 * 数据初始化
 	 */
-	protected void dataInit(){};
-
+	protected void initData(){};
 	/**
 	 * 注入布局
 	 */
@@ -94,7 +106,11 @@ public class BaseActivity extends FragmentActivity implements OnClickListener,La
 	/**
 	 * 事件执行
 	 */
-	protected void eventDispose() {}
+	protected void event() {}
+	/**
+	 * 资源释放操作
+	 */
+	protected void release(){};
 
 	/**
 	 * 界面刷新
@@ -141,11 +157,6 @@ public class BaseActivity extends FragmentActivity implements OnClickListener,La
 		}
 	}
 	
-	
-	
-	
-	
-
 	public void openActivity(String pAction) {
 		openActivity(pAction, null);
 	}
@@ -247,10 +258,12 @@ public class BaseActivity extends FragmentActivity implements OnClickListener,La
 
 	}
 	
-	/* 自定义清除 */
+	/*自定义清除 */
 	public void finishBase() {
+		LogUtil.logActivityEnd(this);
 		clearContext();
 		ActivityManager.getInstance().pop(this.getClass().getName());
+		release();
 	}
 	/*************************************************【界面监听】************************************************/
 	@Override
@@ -275,12 +288,9 @@ public class BaseActivity extends FragmentActivity implements OnClickListener,La
 		this.context = context;
 	}
 	
-	
-   
 	public HashMap<String, Object> getNextContext() {
 		return nextContext;
 	}
-
 	public void setNextContext(HashMap<String, Object> nextContext) {
 		this.nextContext = nextContext;
 	}
@@ -343,7 +353,7 @@ public class BaseActivity extends FragmentActivity implements OnClickListener,La
 	@Override
 	public void intoNextActivity() {
 		// TODO Auto-generated method stub
-		if(null!=getNextContext()){
+		if(null!= getNextContext()){
 			BaseActivity nextActivity = ActivityManager.getInstance().peek();
 			if(null!=nextActivity){
 				nextActivity.setContext((HashMap<String,Object>)getNextContext().clone());

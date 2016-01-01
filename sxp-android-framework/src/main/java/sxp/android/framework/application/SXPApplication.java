@@ -22,14 +22,9 @@ import android.view.WindowManager;
  * 
  */
 public class SXPApplication extends Application {
-
-	private static SXPApplication instance;//实例
-	private static Context context;//上下文
+	private static SXPApplication instance;// 实例
+	private static Context context;// 上下文
 	private static WindowManager wm = null;// 窗口管理类
-
-	private SXPRuntimeContext sxpRuntimeContext;// 运行时上下文
-	private SXPConfigurationContext sxpConfigurationContext;// 持久化上下文
-	
 
 	@Override
 	public void onCreate() {
@@ -39,36 +34,31 @@ public class SXPApplication extends Application {
 		instance = this;
 		// 获得上下文
 		context = getApplicationContext();
-		sxpRuntimeContext = new SXPRuntimeContext();
-		sxpConfigurationContext = new SXPConfigurationContext(context, this);
+		// 加载配置文件
+		Configuration.load();
 		// 程序异常处理
-		if(isExceptionDeal()){
+		if (isExceptionDeal()){
 			CrashHandler crashHandler = CrashHandler.getInstance();
 			crashHandler.init(context);
 		}
-		// 加载配置文件
-		Configuration.getInstance();
 	}
 
 	/**
 	 * 是否异常处理
+	 * 
 	 * @return
 	 */
-	public boolean isExceptionDeal(){
-		return true;
+	public boolean isExceptionDeal() {
+		return !Configuration.shareInstance().isDebug();
 	}
-	
+
 	/**
 	 * 获取运行时上下文
 	 * 
 	 * @return
 	 */
 	public SXPRuntimeContext getSXPRuntimeContext() {
-		if (sxpRuntimeContext == null) {
-			sxpRuntimeContext = new SXPRuntimeContext();
-		}
-		return sxpRuntimeContext;
-
+		return SXPRuntimeContext.sharedInstance();
 	}
 
 	/**
@@ -77,10 +67,7 @@ public class SXPApplication extends Application {
 	 * @return
 	 */
 	public SXPConfigurationContext getSXPConfigurationContext() {
-		if (sxpConfigurationContext == null) {
-			sxpConfigurationContext = new SXPConfigurationContext(context, this);
-		}
-		return sxpConfigurationContext;
+		return SXPConfigurationContext.shareInstance();
 
 	}
 

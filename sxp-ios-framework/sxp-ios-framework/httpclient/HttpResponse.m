@@ -8,6 +8,6 @@
 
 #import "HttpResponse.h"
 @implementation HttpResponse
-@synthesize success=_success;
-@synthesize faile=_faile;
+@synthesize success = _success;
+@synthesize faile = _faile;
 @end

@@ -39,6 +39,7 @@
 		5C52AA8C1C257E6D000C20EF /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA801C257E6C000C20EF /* TimeUtil.m */; };
 		5C52AA8D1C257E6D000C20EF /* ViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52AA821C257E6C000C20EF /* ViewUtil.m */; };
 		5C52AAAC1C259CF4000C20EF /* libMJExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCAEC331BE8B8770053CDDA /* libMJExtension.a */; };
+		5C8E8BB11C30CB960041061E /* HttpParameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E8BB01C30CB960041061E /* HttpParameModel.m */; };
 		5CCAEC201BE8AA2A0053CDDA /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCAEC171BE8A87A0053CDDA /* libAFNetworking.a */; };
 		EF2FBF6250D50E1D173EE375 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 978831838C1646E77D26A176 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B23B3D15FFC0FC9893968F478086D58D;
 			remoteInfo = MJExtension;
+		};
+		5CB328191C2A7183009DEB37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2CB82EF8838B9E9EDA136F8C74E3B806;
+			remoteInfo = Masonry;
 		};
 		5CCAEC161BE8A87A0053CDDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -83,7 +91,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 6A987F2141A41DDAB622971CAA181B51;
+			remoteGlobalIDString = 55B2D48219E358BC3238E2D3D2AB2785;
 			remoteInfo = Pods;
 		};
 		5CCAEC321BE8B8770053CDDA /* PBXContainerItemProxy */ = {
@@ -178,6 +186,8 @@
 		5C52AA801C257E6C000C20EF /* TimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUtil.m; sourceTree = "<group>"; };
 		5C52AA811C257E6C000C20EF /* ViewUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtil.h; sourceTree = "<group>"; };
 		5C52AA821C257E6C000C20EF /* ViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtil.m; sourceTree = "<group>"; };
+		5C8E8BAF1C30CB960041061E /* HttpParameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpParameModel.h; sourceTree = "<group>"; };
+		5C8E8BB01C30CB960041061E /* HttpParameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpParameModel.m; sourceTree = "<group>"; };
 		5CCAEC111BE8A87A0053CDDA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		978831838C1646E77D26A176 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09B0B8F2D35F23FC1EECA93 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -337,6 +347,8 @@
 				5C52AA441C257BA7000C20EF /* HttpResponse.m */,
 				5C52AA451C257BA7000C20EF /* HttpUtil.h */,
 				5C52AA461C257BA7000C20EF /* HttpUtil.m */,
+				5C8E8BAF1C30CB960041061E /* HttpParameModel.h */,
+				5C8E8BB01C30CB960041061E /* HttpParameModel.m */,
 			);
 			path = httpclient;
 			sourceTree = "<group>";
@@ -406,6 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				5CCAEC171BE8A87A0053CDDA /* libAFNetworking.a */,
+				5CB3281A1C2A7183009DEB37 /* libMasonry.a */,
 				5CCAEC331BE8B8770053CDDA /* libMJExtension.a */,
 				5CCAEC191BE8A87A0053CDDA /* libPods.a */,
 			);
@@ -515,6 +528,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5CB3281A1C2A7183009DEB37 /* libMasonry.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMasonry.a;
+			remoteRef = 5CB328191C2A7183009DEB37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5CCAEC171BE8A87A0053CDDA /* libAFNetworking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -601,6 +621,7 @@
 				5C52AA551C257BA7000C20EF /* MBProgressHUD.m in Sources */,
 				5C52AA651C257E34000C20EF /* FontColorString.m in Sources */,
 				5C52AA531C257BA7000C20EF /* HttpUtil.m in Sources */,
+				5C8E8BB11C30CB960041061E /* HttpParameModel.m in Sources */,
 				5C52AA861C257E6C000C20EF /* MathUtil.mm in Sources */,
 				5C302BDF1B57633900E91B3D /* SXPAppDelegate.m in Sources */,
 				5C52AA681C257E34000C20EF /* RateChartView.m in Sources */,

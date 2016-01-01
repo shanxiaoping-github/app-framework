@@ -21,27 +21,36 @@ import android.util.Base64;
 public class SXPConfigurationContext implements SXPContext {
 	private Context context;
 	private Application application;
+	private static SXPConfigurationContext instance;
+	public static SXPConfigurationContext shareInstance(){
+		if(null == instance){
+			instance = new SXPConfigurationContext(SXPApplication.getAppContext(),SXPApplication.getInstance());
+		}
+		return instance;
+	}
 
-	public SXPConfigurationContext(Context context, Application application) {
+	private SXPConfigurationContext(Context context, Application application) {
 		this.context = context;
 		this.application = application;
 	}
+	
 
-	public void savaData(String key, Object value) {
+	public void savaData(String key,Object value) {
 		// TODO Auto-generated method stub
 		SharedPreferences sp = context.getSharedPreferences(
 				application.getPackageName(), Context.MODE_PRIVATE);
 		SharedPreferences.Editor editor = sp.edit();
-		editor.putString(key, value.toString());
+		editor.putString(key,value.toString());
 		editor.commit();
 	}
 
-	public Object getData(String key){
+	public String getData(String key){
 		// TODO Auto-generated method stub
 		SharedPreferences sp = context.getSharedPreferences(
 				application.getPackageName(),Context.MODE_PRIVATE);
 		return sp.getString(key, "");
 	}
+	
 
 	/**
 	 * 存储序列化对象
@@ -76,11 +85,8 @@ public class SXPConfigurationContext implements SXPContext {
 	}
 
 	public Object readObject(String key) {
-
 		SharedPreferences sp = context.getSharedPreferences(
 				application.getPackageName(), Context.MODE_PRIVATE);
-		SharedPreferences.Editor editor = sp.edit();
-
 		Object object = null;
 		String productBase64 = sp.getString(key, "");
 
@@ -108,5 +114,6 @@ public class SXPConfigurationContext implements SXPContext {
 		}
 		return object;
 	}
+
 
 }

@@ -28,7 +28,6 @@ public class SXPException extends RuntimeException {
 	public String toString() {
 		// TODO Auto-generated method stub
 		return "异常类型:" + exceptionType + " 异常信息:" + exceptionMsg;
-
 	}
 
 }

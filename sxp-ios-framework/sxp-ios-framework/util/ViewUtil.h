@@ -9,8 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @interface ViewUtil : NSObject
-/*操作状态*/
-+(UIBarButtonItem*)getBackButtonItemWithImage:(UIImage*)image frame:(CGRect)frame target:(id)target sel:(SEL)sel;
+/*
+ *返回buttonitem image形式的
+ */
++(UIBarButtonItem*)getButtonItemWithImage:(UIImage*)image frame:(CGRect)frame target:(id)target sel:(SEL)sel;
+/*
+ *返回buttonitem title形式的
+ */
++(UIBarButtonItem*)getButtonItemWithTitle:(NSString*)title font:(UIFont*)font color:(UIColor*)color frame:(CGRect)frame target:(id)target sel:(SEL)sel;
 /*uicolor 转为 uiimage*/
 +(UIImage*)UIColorTransferUIImage:(UIColor*)color rect:(CGRect)rect;
 /*为view添加手势动作*/

@@ -26,7 +26,7 @@
 	if (!values){
 		return;
 	}
-	if (!_httpConfiguration) {
+	if(!_httpConfiguration){
 		self.httpConfiguration = [[HttpConfiguration alloc]init];
 		[self setParams:values];
 		return;
@@ -75,7 +75,6 @@
 	}
 }
 -(NSString*)getAction{
-	
 	if (_httpConfiguration&&_httpConfiguration.action) {
 		return _httpConfiguration.action;
 	}else if(self.action){
@@ -84,7 +83,6 @@
 		return [HttpRequest getBaseAction];
 	}
 }
-
 /*
 	*添加next http请求
 	*httpRequestEvent 请求事件
@@ -123,7 +121,7 @@
 	if (!_httpConfiguration.httpRequestType){
 		_httpConfiguration.httpRequestType = HttpRequestTypePost;
 	}
-	[HttpUtil sendHttpRequest:_httpConfiguration.httpRequestType url:[HttpConfiguration getUrl:[self getUrl] action:[self getAction]] params:[self filterParamers:_httpConfiguration.params] success:^(AFHTTPRequestOperation *operation, id responseObject) {
+	[HttpUtil sendHttpRequest:_httpConfiguration.httpRequestType url:[HttpConfiguration getUrl:[self getUrl] action:[self getAction]] params:[self filterParamers:[_httpConfiguration getParames]] success:^(AFHTTPRequestOperation *operation, id responseObject) {
 		[self parseResponse:NOMAL
 					 result:operation.responseString
 				   response:responseObject];
@@ -148,7 +146,8 @@
 	}];
 	
 }
--(void)getSubRequestContext:(id)sender{}
+-(void)getSubRequestContext:(id)sender{
+}
 -(void)submitSubRequest:(id)sender{
 	[self getSubRequestContext:sender];
 	[self submitRequest];

@@ -16,11 +16,4 @@ public interface SXPContext {
 	 */
 	public Object getData(String key);
 	
-	
-//	public void savaData(Object value);
-//	
-//	public <T> T getData(Class<T> className);
-	
-	
-
 }

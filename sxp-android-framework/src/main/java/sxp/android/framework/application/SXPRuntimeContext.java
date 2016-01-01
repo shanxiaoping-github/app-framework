@@ -10,6 +10,15 @@ import java.util.Map;
  *
  */
 public class SXPRuntimeContext implements SXPContext {
+	private SXPRuntimeContext(){}
+	private static SXPRuntimeContext sxpRuntimeContext;
+	public static SXPRuntimeContext sharedInstance(){
+		if(null == sxpRuntimeContext){
+			sxpRuntimeContext = new SXPRuntimeContext(); 
+		}
+		return sxpRuntimeContext;
+	}
+	
 	private Map<String, Object> map;
 
 	public void savaData(String key, Object value) {
@@ -17,12 +26,10 @@ public class SXPRuntimeContext implements SXPContext {
 		if (map == null) {
 			map = new HashMap<String, Object>();
 		}
-
 		map.put(key, value);
-
 	}
-	
-	public void savaData(Object value){
+
+	public void savaData(Object value) {
 		savaData(value.getClass().getName(), value);
 	}
 

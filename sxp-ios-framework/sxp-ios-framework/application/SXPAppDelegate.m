@@ -9,7 +9,7 @@
 #import "SXPAppDelegate.h"
 #import "appliacation_attribute.h"
 @implementation SXPAppDelegate
-
+DEFINE_SINGLETON_FOR_CLASS(SXPAppDelegate)
 -(instancetype)init{
     self = [super init];
     if (self) {

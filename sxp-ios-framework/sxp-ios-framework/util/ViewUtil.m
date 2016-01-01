@@ -10,13 +10,23 @@
 
 @implementation ViewUtil
 
-+(UIBarButtonItem *)getBackButtonItemWithImage:(UIImage *)image frame:(CGRect)frame target:(id)target sel:(SEL)sel{
-    UIButton *leftbtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    leftbtn.frame = frame;
-    [leftbtn setImage:image forState:UIControlStateNormal];
-    [leftbtn addTarget:target action:sel forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithCustomView:leftbtn];
-    return leftItem;
++(UIBarButtonItem *)getButtonItemWithImage:(UIImage *)image frame:(CGRect)frame target:(id)target sel:(SEL)sel{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = frame;
+    [btn setImage:image forState:UIControlStateNormal];
+    [btn addTarget:target action:sel forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    return btnItem;
+}
++(UIBarButtonItem *)getButtonItemWithTitle:(NSString *)title font:(UIFont *)font color:(UIColor *)color frame:(CGRect)frame target:(id)target sel:(SEL)sel{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = frame;
+    [btn setTitleColor:color forState:UIControlStateNormal];
+    [btn setTitle:title forState:UIControlStateNormal];
+    btn.titleLabel.font = font;
+    [btn addTarget:target action:sel forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    return btnItem;
 }
 +(UIImage*)UIColorTransferUIImage:(UIColor *)color rect:(CGRect)rect{
     UIGraphicsBeginImageContext(rect.size);

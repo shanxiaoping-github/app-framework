@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface ID {
+public @interface ID{
 	int value() default -1;
 	boolean isBindListener() default false;
 }

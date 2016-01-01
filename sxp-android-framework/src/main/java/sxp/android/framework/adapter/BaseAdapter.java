@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
-
 /**
- * 自定义基类适配器
- * 
- * @author Administrator
- * 
+ * @ClassName: BaseAdapter
+ * @Description: 自定义基类适配器
+ * @author shanxiaoping
+ * @date 2015年12月30日 上午10:12:59
+ * @param <T>
  */
 public abstract class BaseAdapter<T> extends android.widget.BaseAdapter {
 
@@ -55,7 +55,6 @@ public abstract class BaseAdapter<T> extends android.widget.BaseAdapter {
 			list = new ArrayList<T>();
 		}
 		list.add(index, t);
-
 	}
 
 	public void add(T t) {

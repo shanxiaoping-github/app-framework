@@ -15,8 +15,7 @@ import sxp.android.framework.exception.SXPException;
  */
 public class MessageManager {
 	// 消息单例
-	private MessageManager() {
-	}
+	private MessageManager(){}
 
 	private static MessageManager messageManager = null;
 
@@ -201,7 +200,7 @@ public class MessageManager {
 			sendMessage(messageSubject, objects);
 		}
 	}
-
+	
 	/**
 	 * 发送消息，不做主题区分
 	 * 

@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
+import org.apache.http.protocol.HTTP;
+
 import sxp.android.framework.configuration.Configuration;
 import sxp.android.framework.exception.SXPException;
 import sxp.android.framework.util.StringUtil;
@@ -134,6 +136,8 @@ public abstract class BaseAsynHttpClient {
 
 	/* 获得请求 */
 	public void subRequestGet(String path) {
+		
+		
 		isEmpty = false;
 		isFail = false;
 		setActionPath(path);
@@ -188,6 +192,8 @@ public abstract class BaseAsynHttpClient {
 		isFail = false;
 		setActionPath(path);
 		AsyncHttpClient client = new AsyncHttpClient();
+		client.addHeader("Content-Type", "text/html");
+		client.addHeader("charset",HTTP.UTF_8);
 		//预处理
 		subRequestAdvanceDeal(client,this);
 		client.setTimeout(getOutime());
@@ -320,7 +326,7 @@ public abstract class BaseAsynHttpClient {
 	/* 获得请求地址 */
 	public String getUrl(String path) {
 		return getUrl(
-				Configuration.getInstance().getProperty(
+				Configuration.shareInstance().getProperty(
 						Configuration.SERVICE_ADRESS),path);
 	}
 

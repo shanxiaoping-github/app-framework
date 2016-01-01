@@ -7,7 +7,9 @@
 //
 /*自定义程序代理类*/
 #import <UIKit/UIKit.h>
+#import "appliacation_attribute.h"
 @interface SXPAppDelegate : UIResponder<UIApplicationDelegate>
+DEFINE_SINGLETON_FOR_HEADER(SXPAppDelegate)
 @property (strong,nonatomic)UIWindow *window;
 /*获得单例*/
 +(instancetype)shareInstance;
